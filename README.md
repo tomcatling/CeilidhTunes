@@ -8,4 +8,4 @@ Install files: https://www.dropbox.com/s/pb6e1hm7wyzb513/EasyABCInstall.zip?dl=0
 
 Documentation: http://easyabc.sourceforge.net/
 
-Although any other .abc progragm should give similar results.
+Other .abc programs should give similar results.
