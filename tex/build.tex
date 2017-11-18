@@ -1,0 +1,105 @@
+% file build.tex
+\documentclass[12pt]{report}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=20mm,
+ }
+\usepackage{abc}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+
+
+\begin{document}
+
+%%%
+%%% REDEFINE CHAPTER AND SECTION APPEARANCE
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\Huge} % format
+{} % label
+{0.5ex} % sep
+{
+    \rule{\textwidth}{1pt}
+    \vspace{1ex}
+    \centering
+} % before-code
+[
+\vspace{-2.0ex}%
+\rule{\textwidth}{1pt}
+] % after-code
+ 
+ 
+\titleformat
+{\section}
+[display]
+{\bfseries\huge\itshape}
+{}
+{0.5em}
+{
+	\centering
+}
+[]
+
+\titlespacing{\chapter}{12pc}{-10ex}{3ex}
+
+\titlespacing{\section}{12pc}{-10ex}{3ex}
+%%%
+%%%
+
+% cover page	
+\includepdf{../images/cover_fixed.pdf}
+	
+% table of contents
+%\begin{center}
+%\includegraphics[width=4cm]{../images/contents}
+%\end{center}
+\tableofcontents
+
+\chapter{Jigs}
+\begin{center}
+\includegraphics[width=8cm]{../images/jigs}
+\end{center}
+
+\section{Zycanthos}
+\input{../Zycanthos}
+
+\newpage
+\section{From The New Country}
+\input{../From_the_New_Country}
+
+\chapter{Reels}
+\begin{center}
+\includegraphics[width=8cm]{../images/reels}
+\end{center}
+
+\section{Irish Reels}
+\input{../Irish_Reels}
+
+\newpage
+\section{Maggie's Pancakes}
+\input{../Maggies_Pancakes}
+
+\chapter{Hornpipes}
+\begin{center}
+\includegraphics[width=8cm]{../images/hornpipes}
+\end{center}
+
+\chapter{Miscellaneous}
+\begin{center}
+\includegraphics[width=8cm]{../images/misc}
+\end{center}
+
+\chapter{Waltzes}
+\begin{center}
+\includegraphics[width=8cm]{../images/waltzes}
+\end{center}
+
+%\section{Waltzes}
+\input{../Waltzes}
+
+\end{document}
