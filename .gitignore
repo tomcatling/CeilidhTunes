@@ -1,2 +1,3 @@
 /tex/*
 !/tex/build.tex
+!/tex/abc.sty
