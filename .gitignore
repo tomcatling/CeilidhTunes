@@ -1,3 +1,6 @@
+.DS_Store
+*.log
+*.aux
 /tex/*
 !/tex/build.tex
 !/tex/abc.sty
