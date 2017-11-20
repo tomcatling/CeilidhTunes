@@ -5,12 +5,12 @@
  a4paper,
  left=20mm,
  right=20mm,
- top=20mm,
- bottom=20mm,
+ top=17mm,
+ bottom=17mm,
  }
 \usepackage{abc}
 \usepackage{pdfpages}
-\usepackage{titlesec}
+\usepackage[compact]{titlesec}
 
 
 \begin{document}
@@ -45,9 +45,9 @@
 }
 []
 
-\titlespacing{\chapter}{12pc}{-10ex}{3ex}
+\titlespacing{\chapter}{12pc}{0ex}{3ex}
 
-\titlespacing{\section}{12pc}{-10ex}{3ex}
+\titlespacing{\section}{12pc}{0ex}{0ex}
 %%%
 %%%
 
@@ -61,47 +61,61 @@
 \tableofcontents
 \pagenumbering{arabic} % reset page numbers
 
-\chapter{Jigs}
+\chapter*{Jigs}
+\addcontentsline{toc}{chapter}{Jigs}
 \begin{center}
 \includegraphics[width=8cm]{../images/jigs}
 \end{center}
 
-\section{From The New Country}
+\section*{From The New Country}
+\addcontentsline{toc}{section}{From The New Country}
 \input{../From_the_New_Country}
 
-\section{Zycanthos}
+\section*{Zycanthos}
+\addcontentsline{toc}{section}{Zycanthos}
 \input{../Zycanthos}
 
-\chapter{Reels}
+\chapter*{Reels}
+\addcontentsline{toc}{chapter}{Reels}
 \begin{center}
 \includegraphics[width=8cm]{../images/reels}
 \end{center}
 
-\section{Irish Reels}
+\section*{Irish Reels}
+\addcontentsline{toc}{section}{Irish Reels}
 \input{../Irish_Reels}
 
-\section{The Dashing White Sergeant}
+\section*{The Dashing White Sergeant}
+\addcontentsline{toc}{section}{The Dashing White Sergeant}
 \input{../Dashing_White_Sergeant}
 
-\section{Maggie's Pancakes}
+\section*{Maggie's Pancakes}
+\addcontentsline{toc}{section}{Maggie's Pancakes}
 \input{../Maggies_Pancakes}
 
-\chapter{Hornpipes}
+\chapter*{Hornpipes}
+\addcontentsline{toc}{chapter}{Hornpipes}
 \begin{center}
 \includegraphics[width=8cm]{../images/hornpipes}
 \end{center}
 
-\chapter{Waltzes}
+\chapter*{Waltzes}
+\addcontentsline{toc}{chapter}{Waltzes}
 \begin{center}
 \includegraphics[width=8cm]{../images/waltzes}
 \end{center}
-
-%\section{Waltzes}
 \input{../Waltzes}
 
-\chapter{Miscellaneous}
+\chapter*{Airs}
+\addcontentsline{toc}{chapter}{Airs}
 \begin{center}
-\includegraphics[width=8cm]{../images/misc}
+\includegraphics[width=6cm]{../images/misc}
 \end{center}
+\input{../Airs}
+
+%\chapter*{Miscellaneous}
+%\begin{center}
+%\includegraphics[width=8cm]{../images/misc}
+%\end{center}
 
 \end{document}
