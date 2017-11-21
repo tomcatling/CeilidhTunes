@@ -10,8 +10,8 @@ Documentation: http://easyabc.sourceforge.net/
 
 Other .abc programs should give similar results.
 
-The tunebook (./tex/build.pdf) can built with LATEX by running 
+The tunebook (./tex/build.pdf) can built with LaTeX by running 
 
 `pdflatex --shell-escape build.tex`
 
-From within the ./tex/ directory. The LATEX ABC package is required https://ctan.org/pkg/abc
+From within the ./tex/ directory. The LaTeX ABC package is required https://ctan.org/pkg/abc
