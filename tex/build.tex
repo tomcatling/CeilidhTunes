@@ -12,6 +12,13 @@
 \usepackage{pdfpages}
 \usepackage[compact]{titlesec}
 
+% a very sneaky command that forces the next content to appear on a left page
+% to avoid page turns within a set (if it fits on 2 pages)
+\newcommand*{\cleartoleftpage}{%
+  \clearpage
+   \ifodd\value{page}\hbox{}\newpage\fi
+}
+
 
 \begin{document}
 
@@ -53,14 +60,23 @@
 
 % cover page	
 \includepdf{../images/cover_fixed.pdf}
-	
+
+
 % table of contents
 %\begin{center}
 %\includegraphics[width=4cm]{../images/contents}
 %\end{center}
+
+\begin{center}
+	\textit{empty page}
+\end{center}
+\thispagestyle{empty}
+\newpage
+
 \tableofcontents
 \pagenumbering{arabic} % reset page numbers
 
+\cleartoleftpage
 \chapter*{Jigs}
 \addcontentsline{toc}{chapter}{Jigs}
 \begin{center}
@@ -71,11 +87,12 @@
 \addcontentsline{toc}{section}{From The New Country}
 \input{../From_the_New_Country}
 
-\newpage
+\cleartoleftpage
 \section*{Zycanthos}
 \addcontentsline{toc}{section}{Zycanthos}
 \input{../Zycanthos}
 
+\cleartoleftpage
 \chapter*{Reels}
 \addcontentsline{toc}{chapter}{Reels}
 \begin{center}
@@ -86,16 +103,17 @@
 \addcontentsline{toc}{section}{Irish Reels}
 \input{../Irish_Reels}
 
-\newpage
+\cleartoleftpage
 \section*{The Dashing White Sergeant}
 \addcontentsline{toc}{section}{The Dashing White Sergeant}
 \input{../Dashing_White_Sergeant}
 
-\newpage
+\cleartoleftpage
 \section*{Maggie's Pancakes}
 \addcontentsline{toc}{section}{Maggie's Pancakes}
 \input{../Maggies_Pancakes}
 
+\cleartoleftpage
 \chapter*{Hornpipes}
 \addcontentsline{toc}{chapter}{Hornpipes}
 \begin{center}
@@ -106,6 +124,7 @@
 \addcontentsline{toc}{section}{King of the Fairies}
 \input{../King_of_the_Fairies}
 
+\cleartoleftpage
 \chapter*{Waltzes}
 \addcontentsline{toc}{chapter}{Waltzes}
 \begin{center}
@@ -113,6 +132,7 @@
 \end{center}
 \input{../Waltzes}
 
+\cleartoleftpage
 \chapter*{Airs}
 \addcontentsline{toc}{chapter}{Airs}
 \begin{center}
