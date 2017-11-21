@@ -12,6 +12,8 @@ Other .abc programs should give similar results.
 
 The tunebook (./tex/build.pdf) can built with LaTeX by running 
 
-`pdflatex --shell-escape build.tex`
+`pdflatex --shell-escape build.tex ; pdflatex --shell-escape build.tex ; cp build.pdf ../tunebook_new.pdf`
 
-From within the ./tex/ directory. The LaTeX ABC package is required https://ctan.org/pkg/abc
+from within the ./tex/ directory. 
+
+The LaTeX ABC package is required https://ctan.org/pkg/abc . The local abc.sty has been edited to allow code control of newlines.
