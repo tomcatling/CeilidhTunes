@@ -2,7 +2,7 @@
 
 It's time to transcribe our tunebook into ABC! This will be a boon for future generations and ensure our names live on forever.
 
-ABC files checked and written using EasyABC, most copied from http://thesession.org/ or http://abcnotation.com/ to begin with.
+ABC files were mostly checked and written using EasyABC, many copied from http://thesession.org/ or http://abcnotation.com/ to begin with.
 
 EasyABC install files: https://www.dropbox.com/s/pb6e1hm7wyzb513/EasyABCInstall.zip?dl=0
 
@@ -18,9 +18,9 @@ from within the ./tex/ directory.
 
 The LaTeX ABC package is required https://ctan.org/pkg/abc . The local abc.sty has been edited to allow code control of newlines.
 
-Each set is in it's own .tex file with each tune in the set precedeed by \begin{abc}[name] and followed by \end{abc}. For example
+Each set is in it's own .tex file with each tune in the set being precedeed by \begin{abc}[name] and followed by \end{abc}. For example
 
-    'King_of_the_Fairies.tex'
+    './King_of_the_Fairies.tex'
     
     \begin{abc}[name=King_of_the_Fairies]
     X: 1
@@ -52,10 +52,10 @@ Each set is in it's own .tex file with each tune in the set precedeed by \begin{
 
 This is included in ./tex/build.tex in it's own section and added to the table of contents like so
 
-    'build.tex'
+    './tex/build.tex'
     
     \section*{King of the Fairies (not finished)}
     \addcontentsline{toc}{section}{King of the Fairies}
     \input{../King_of_the_Fairies}
 
-note that `input{../King_of_the_Fairies}` in build.tex refers to the name of the .tex file (the set) whereas `\begin{abc}[name=King_of_the_Fairies]` within King_of_the_Fairies.tex just refers to the tune name. The LaTeX ABC packge generates lots of working files with this name in the ./tex/ directory, which is why it's useful to keep it separate.
+note that `input{../King_of_the_Fairies}` in ./tex/build.tex refers to the name of the .tex file (the set) whereas `\begin{abc}[name=King_of_the_Fairies]` within King_of_the_Fairies.tex just refers to the tune name. The LaTeX ABC packge generates lots of working files with each tune name in the ./tex/ directory, which is why it's useful to keep it separate.
