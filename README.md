@@ -12,9 +12,9 @@ Other .abc programs should give similar results.
 
 The tunebook (./tex/build.pdf) can built with LaTeX by running 
 
-`pdflatex --shell-escape build.tex` 
-`pdflatex --shell-escape build.tex`
-`cp build.pdf ../tunebook_new.pdf`
+    pdflatex --shell-escape build.tex
+    pdflatex --shell-escape build.tex
+    cp build.pdf ../tunebook_new.pdf
 
 from within the ./tex/ directory. 
 
