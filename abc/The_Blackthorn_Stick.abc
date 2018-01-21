@@ -1,0 +1,16 @@
+X: 2
+T: The Blackthorn Stick
+R: jig
+M: 6/8
+L: 1/8
+V:T1 name="Melody"   snm="M"
+V:T2 name="Violin \n Accompaniment"  snm="V"
+K: Amaj
+[V:T1]e|: "A"aga "D"faf | "A"ecA "D"BAF | "A"EAA "E7"GBB | "A"(Ac)c "E"B2 e |
+[V:T2]z|: [e2c2] ([ec][e2d2]) ([de] | [e2c2]) ([ec][e2d2]) ([de] | [e3c3]) [B3E3] | [c3E3] [B2E2] z |
+[V:T1]"F#m"aga "D"baf | "A"ecA "D"BAF | "A"EAA "E"GBB | "A"(cA)"D"A "A"A2 e :|
+[V:T2] [e2c2] ([ec][e2d2]) ([de] | [e2c2]) ([ec][e2d2]) ([de] | [e3c3]) [B3E3] | ([c2E2]d) [c3E3] :|
+[V:T1]|: "D"fee "A"aee| "D"fee "A"aee | "D"fee "F#m"agf | "A"edc "E"B2 e |
+[V:T2]|: [fd] z2 [ec] z2| [fd] z2 [ec] z2| [fd] z2 [A3F3] | [A3E3] [G2B,2] z|
+[V:T1]"F#m"aga "D"baf | "A"ecA "D"BAF | "A"EAA "E"GBB | "A"cA"D"A "A"A2 e :|
+[V:T2][[e2c2] ([ec][e2d2]) ([de]| [e2c2]) ([ec][e2d2]) ([de]  | [e3c3]) [B3E3] | ([c2E2]d) [c3E3] :|
