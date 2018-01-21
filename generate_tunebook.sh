@@ -1,5 +1,14 @@
 #!/usr/local/bin/bash
 
+transpose="0"
+if [ -n "$1" ]
+then
+	transpose=$1
+fi
+
+echo "Transposing by $transpose semitones."
+
+
 declare -A sets; declare -a keys;
 
 # dashing white sergeant
@@ -83,22 +92,24 @@ keys+=( "Carolans_Farewell" )
 cd ./abc
 for set in "${sets[@]}"
 do
-	echo "" > "$set.tex"
+	echo "" > "$set.tex" # create/clear all of the set files
 done
 
 
 for tune in "${keys[@]}"
 do 
 
-	if [ -f "$tune.abc" ]; then
+	if [ -f "$tune.abc" ]
+    then
 		
 		echo "\begin{abc}[name=$tune]" >> "${sets[$tune]}.tex"
-		cat "$tune.abc" >> "${sets[$tune]}.tex"
+		abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set in order, surrounded by the LaTeX strings
 		echo "\end{abc}" >> "${sets[$tune]}.tex"
 		echo "" >> "${sets[$tune]}.tex"
 		
 	else
 	   echo "Can't find $tune.abc!"
+	   exit 1
 	fi
 		
 done
@@ -108,6 +119,9 @@ mv *.tex ../tex/
 
 
 cd ../tex/
-pdflatex --shell-escape build.tex
-pdflatex --shell-escape build.tex
+echo "First LaTeX run."
+pdflatex --shell-escape build.tex &>/dev/null
+echo "Second LaTeX run."
+pdflatex --shell-escape build.tex &>/dev/null
 cp build.pdf ../tunebook_new.pdf
+echo "Done."
