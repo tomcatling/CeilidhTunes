@@ -5,6 +5,7 @@ M: 6/8
 L: 1/8
 V:T1 name="Melody"   snm="M"
 V:T2 name="Violin \n Accompaniment"  snm="V"
+Q:1/2=80
 K: Gmaj
 [V:T1]d/2c/2|:"G"BGG DGG|BGB dcB|"Am"cAA EAA|cAc "D"edc|
 [V:T2]z|: [D2G,2] (([GB,][G2B,2])[GB,])| [D2G,2] [DB,] (([DB,]A,)G,) | [E2A,2] (([EC] [E2C2]) [EC]) | [E2A,2] (([EC] [D2C2]) [DC]) |

@@ -5,6 +5,7 @@ M: 6/8
 L: 1/8
 V:T1 name="Melody"   snm="M"
 V:T2 name="Violin \n Accompaniment"  snm="V"
+Q:1/2=80
 K: Edor
 [V:T1]|:E/2F/2|"Em"GEE BEE|GEE BAG|"D"FDD ADD|d^cd AGF|
 [V:T2]|:z| [B2E2] ([BG][B2E2]) ([BG]| [B2E2]) (EG2A)|[A2D2]([AF][A2D2]) ([AF]| [A2D2]) (F D2 ^D)|

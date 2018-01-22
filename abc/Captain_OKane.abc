@@ -2,9 +2,11 @@ X:2
 T:Captain O'Kane
 M:3/4
 L:1/8
+R:waltz
 C:Turlough Carolan
 V:T1 name="Melody"   snm="I"
 V:T2 name="Harmony"  snm="II"
+Q:1/2=60
 K:EMin
 [V:T1]|:ED|"Em"B,2E2F2|G4FE|"D"FG AG FE|"Bm"D2E2F2|
 [V:T2]|:BA|G2G2A2|B4AG|AB cB AG|F2G2A2|

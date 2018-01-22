@@ -3,10 +3,11 @@ T: The Dark Island
 R: waltz
 M: 3/4
 L: 1/8
+Q:1/2=60
 K: Gmaj
-|: E2 | "Dm" A3 E A2 | "Am" G3 A G2 | "F" E3 D C2 | "C" D4 GA |
-[1 B3 A G2 | "Am" B d3 G2 | "C" B3 A G2 | "G" A4 :|
-[2 "C" B3 D dB | "G7" A3 D BA | "C" G6 | G4 |]
-Bc | "C" d3 B d2 | B3 A G2 | "F" E3 C E2 | "C" D4 GA | B3 A G2 |
-"Am" B d3 GA | "C" B3 A G2 | "G" A4 EG | "Dm" A4 A2 | "Am" G4 G2 |
-"F" E3 D C2 | "C" D4 GA | B3 D dB | "G7" A3 D BA | "C" G6 | G6 |]
+|: E2 | "Am" A3 E A2 | "Em" G3 A G2 | "C" E3 D C2 | "G" D4 GA |
+[1 B3 A G2 | "Em" B d3 G2 | "G" B3 A G2 | "D" A4 :|
+[2 "G" B3 D dB | "D7" A3 D BA | "G" G6 | G4 |]
+Bc | "G" d3 B d2 | B3 A G2 | "C" E3 C E2 | "G" D4 GA | B3 A G2 |
+"Em" B d3 GA | "G" B3 A G2 | "D" A4 EG | "Am" A4 A2 | "Em" G4 G2 |
+"C" E3 D C2 | "G" D4 GA | B3 D dB | "D7" A3 D BA | "G" G6 | G6 |]

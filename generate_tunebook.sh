@@ -66,18 +66,17 @@ sets["Hand_Me_Down_The_Tackle"]="Irish_Reels";
 keys+=( "Hand_Me_Down_The_Tackle" )
 
 # Waltzes
+sets["Flatbush"]="Waltzes"; 
+keys+=( "Flatbush" )
+sets["Forest_Flowers"]="Waltzes"; 
+keys+=( "Forest_Flowers" )
 sets["Margarets"]="Waltzes"; 
 keys+=( "Margarets" )
 sets["The_Dark_Island"]="Waltzes"; 
 keys+=( "The_Dark_Island" )
-sets["Carolans_Welcome1"]="Waltzes"; 
-keys+=( "Carolans_Welcome1" )
-sets["Carolans_Welcome2"]="Waltzes"; 
-keys+=( "Carolans_Welcome2" )
 sets["Ashokan_Farewell"]="Waltzes"; 
 keys+=( "Ashokan_Farewell" )
-sets["Flatbush"]="Waltzes"; 
-keys+=( "Flatbush" )
+
 
 # Airs
 sets["Tune_For_Dad"]="Airs"; 
