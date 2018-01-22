@@ -8,7 +8,7 @@ Documentation: http://easyabc.sourceforge.net/
 
 Other .abc programs should give similar results.
 
-The tunebook can be built by running generate_tunebook.sh. This requires bash 4+, abc2abc and pdflatex with the [abc package](https://ctan.org/pkg/abc?lang=en) installed. The local abc.sty in the ./tex/ directory has been edited to allow code control of newlines.
+The tunebook can be built by running generate_tunebook.sh. This requires bash 4+, abc2abc and pdflatex with the [abc package](https://ctan.org/pkg/abc?lang=en) installed. The local abc.sty in the ./tex/ directory has been edited to allow code control of newlines. The command takes an optional argument to transpose the output - e.g. '''./generate_tunebook.sh 2''' will generated a tunebook transposed by +2 semitones.
 
 If you want to include a tune in a set you should add the filename (without the .abc suffix) and the set name to the array declarations at the start of generate_tunebook.sh. The abc file must exist in the ./abc/ directory and the set must be included in the main LaTeX file (./tex/build.tex).
 
