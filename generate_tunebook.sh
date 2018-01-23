@@ -8,12 +8,14 @@ fi
 
 echo "Transposing by $transpose semitones."
 
-
+# 'sets' is an associative array/dictionary to store a set name for each tune
+# 'keys' is a normal array storing the name of each tune in the order they should be processed
+# associative arrays are not stored in order so this is necessary to determine tune order within sets.
 declare -A sets; declare -a keys;
 
 # dashing white sergeant
-sets["Dashing_White_Sergeant"]="Dashing_White_Sergeant"; 
-keys+=( "Dashing_White_Sergeant" )
+sets["Dashing_White_Sergeant"]="Dashing_White_Sergeant"; 	# sets["TUNE_NAME"]="SET_NAME";
+keys+=( "Dashing_White_Sergeant" )							# keys+=( "SET_NAME" )
 sets["Petronella"]="Dashing_White_Sergeant"; 
 keys+=( "Petronella" )
 sets["Ceilidh_Band_Reel"]="Dashing_White_Sergeant"; 
@@ -65,17 +67,24 @@ keys+=( "Drowsy_Maggie" )
 sets["Hand_Me_Down_The_Tackle"]="Irish_Reels"; 
 keys+=( "Hand_Me_Down_The_Tackle" )
 
-# Waltzes
-sets["Flatbush"]="Waltzes"; 
+# Flatbush Set
+sets["Flatbush"]="Flatbush_Set"; 
 keys+=( "Flatbush" )
-sets["Forest_Flowers"]="Waltzes"; 
+sets["Forest_Flowers"]="Flatbush_Set"; 
 keys+=( "Forest_Flowers" )
-sets["Margarets"]="Waltzes"; 
+
+# Margarets Set
+sets["Midnight_On_The_Water"]="Margarets_Set"; 
+keys+=( "Midnight_On_The_Water" )
+sets["Margarets"]="Margarets_Set"; 
 keys+=( "Margarets" )
+
+# Waltzes
 sets["The_Dark_Island"]="Waltzes"; 
 keys+=( "The_Dark_Island" )
 sets["Ashokan_Farewell"]="Waltzes"; 
 keys+=( "Ashokan_Farewell" )
+
 
 
 # Airs
@@ -91,10 +100,11 @@ keys+=( "Carolans_Farewell" )
 cd ./abc
 for set in "${sets[@]}"
 do
-	echo "" > "$set.tex" # create/clear all of the set files
+	echo "" > "$set.tex" # create/clear all of the set .tex files
 done
 
 
+# iterate over all of the tunes in order
 for tune in "${keys[@]}"
 do 
 
@@ -102,7 +112,7 @@ do
     then
 		
 		echo "\begin{abc}[name=$tune]" >> "${sets[$tune]}.tex"
-		abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set in order, surrounded by the LaTeX strings
+		abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set surrounded by the LaTeX strings
 		echo "\end{abc}" >> "${sets[$tune]}.tex"
 		echo "" >> "${sets[$tune]}.tex"
 		
@@ -116,7 +126,7 @@ done
 mv *.tex ../tex/
 
 
-
+# build the tunebook using pdflatex
 cd ../tex/
 echo "First LaTeX run."
 pdflatex --shell-escape build.tex &>/dev/null

@@ -1,22 +1,23 @@
-% file build.tex
+%%%
+%%% DOCUMENT STUFF
 \documentclass[12pt]{report}
-\usepackage{geometry}
- \geometry{
- a4paper,
- left=20mm,
- right=20mm,
- top=17mm,
- bottom=17mm,
- }
 \usepackage{abc}
 \usepackage{pdfpages}
 \usepackage[compact]{titlesec}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	left=20mm,
+	right=20mm,
+	top=17mm,
+	bottom=17mm,
+}
 
-% a very sneaky command that forces the next content to appear on a left page
+% a sneaky command that forces the next content to appear on a left page
 % to avoid page turns within a set (if it fits on 2 pages)
 \newcommand*{\cleartoleftpage}{%
-  \clearpage
-   \ifodd\value{page}\hbox{}\newpage\fi
+	\clearpage
+	\ifodd\value{page}\hbox{}\newpage\fi
 }
 
 
@@ -25,50 +26,45 @@
 %%%
 %%% REDEFINE CHAPTER AND SECTION APPEARANCE
 \titleformat
-{\chapter} % command
-[display] % shape
-{\bfseries\Huge} % format
-{} % label
-{0.5ex} % sep
-{
-    \rule{\textwidth}{1pt}
-    \vspace{1ex}
-    \centering
-} % before-code
-[
-\vspace{-2.0ex}%
-\rule{\textwidth}{1pt}
-] % after-code
+	{\chapter} % command
+	[display] % shape
+	{\bfseries\Huge} % format
+	{} % label
+	{0.5ex} % sep
+	{
+	    \rule{\textwidth}{1pt}
+	    \vspace{1ex}
+	    \centering
+	} % before-code
+	[
+	\vspace{-2.0ex}%
+	\rule{\textwidth}{1pt}
+	] % after-code
  
  
 \titleformat
-{\section}
-[display]
-{\bfseries\huge\itshape}
-{}
-{0.5em}
-{
-	\centering
-}
-[]
+	{\section}
+	[display]
+	{\bfseries\huge\itshape}
+	{}
+	{0.5em}
+	{
+		\centering
+	}
+	[]
 
 \titlespacing{\chapter}{12pc}{0ex}{3ex}
-
 \titlespacing{\section}{12pc}{0ex}{0ex}
 %%%
 %%%
 
-% cover page	
+%%%
+%%% CONTENT
 \includepdf{../images/cover_fixed.pdf}
 
 
-% table of contents
-%\begin{center}
-%\includegraphics[width=4cm]{../images/contents}
-%\end{center}
-
 \begin{center}
-	\includegraphics[width=0.8\textwidth]{../images/fifths}
+	\includegraphics[width=\textwidth]{../images/fifths}
 \end{center}
 \thispagestyle{empty}
 \newpage
@@ -76,6 +72,8 @@
 \tableofcontents
 \pagenumbering{arabic} % reset page numbers
 
+%%%
+%%% JIGS
 \cleartoleftpage
 \chapter*{Jigs}
 \addcontentsline{toc}{chapter}{Jigs}
@@ -83,15 +81,17 @@
 \includegraphics[width=8cm]{../images/jigs}
 \end{center}
 
-\section*{From The New Country}
-\addcontentsline{toc}{section}{From The New Country}
-\input{From_the_New_Country}
+	\section*{From The New Country}
+	\addcontentsline{toc}{section}{From The New Country}
+	\input{From_the_New_Country}
 
-\cleartoleftpage
-\section*{Zycanthos}
-\addcontentsline{toc}{section}{Zycanthos}
-\input{Zycanthos}
+	\cleartoleftpage
+	\section*{Zycanthos}
+	\addcontentsline{toc}{section}{Zycanthos}
+	\input{Zycanthos}
 
+%%%
+%%% REELS
 \cleartoleftpage
 \chapter*{Reels}
 \addcontentsline{toc}{chapter}{Reels}
@@ -99,20 +99,22 @@
 \includegraphics[width=8cm]{../images/reels}
 \end{center}
 
-\section*{Irish Reels}
-\addcontentsline{toc}{section}{Irish Reels}
-\input{Irish_Reels}
+	\section*{Irish Reels}
+	\addcontentsline{toc}{section}{Irish Reels}
+	\input{Irish_Reels}
 
-\cleartoleftpage
-\section*{The Dashing White Sergeant}
-\addcontentsline{toc}{section}{The Dashing White Sergeant}
-\input{Dashing_White_Sergeant}
+	\cleartoleftpage
+	\section*{The Dashing White Sergeant}
+	\addcontentsline{toc}{section}{The Dashing White Sergeant}
+	\input{Dashing_White_Sergeant}
 
-\cleartoleftpage
-\section*{Maggie's Pancakes}
-\addcontentsline{toc}{section}{Maggie's Pancakes}
-\input{Maggies_Pancakes}
+	\cleartoleftpage
+	\section*{Maggie's Pancakes}
+	\addcontentsline{toc}{section}{Maggie's Pancakes}
+	\input{Maggies_Pancakes}
 
+%%%
+%%% HORNPIPES
 \cleartoleftpage
 \chapter*{Hornpipes}
 \addcontentsline{toc}{chapter}{Hornpipes}
@@ -120,19 +122,35 @@
 \includegraphics[width=8cm]{../images/hornpipes}
 \end{center}
 
-\section*{King of the Fairies (not finished)}
-\addcontentsline{toc}{section}{King of the Fairies}
-\input{King_of_the_Fairies}
+	\section*{King of the Fairies (not finished)}
+	\addcontentsline{toc}{section}{King of the Fairies}
+	\input{King_of_the_Fairies}
 
+%%%
+%%% WALTZES
 \cleartoleftpage
 \chapter*{Waltzes}
 \addcontentsline{toc}{chapter}{Waltzes}
 \begin{center}
-\includegraphics[width=8cm]{../images/waltzes}
+\includegraphics[width=4cm]{../images/waltzes}
 \end{center}
 
-\input{Waltzes}
+	\section*{Flatbush Set}
+	\addcontentsline{toc}{section}{Flatbush Set}
+	\input{Flatbush_Set}
 
+	\cleartoleftpage
+	\section*{Margaret's Set}
+	\addcontentsline{toc}{section}{Margaret's Set}
+	\input{Margarets_Set}
+
+	\cleartoleftpage
+	\section*{Unsorted}
+	\addcontentsline{toc}{section}{Unsorted}
+	\input{Waltzes}
+
+%%%
+%%% AIRS
 \cleartoleftpage
 \chapter*{Airs}
 \addcontentsline{toc}{chapter}{Airs}
@@ -140,7 +158,7 @@
 \includegraphics[width=6cm]{../images/misc}
 \end{center}
 
-\input{Airs}
+	\input{Airs}
 
 %\chapter*{Miscellaneous}
 %\begin{center}
