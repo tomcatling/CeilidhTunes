@@ -1,10 +1,11 @@
+X: 2
 T: Jig in A
 R: jig
 M: 6/8
 L: 1/8
 Q:1/2=80
 K: Amin
-|:"Am"EAA AGA  |"G"Bdd dcd  |"Am"eae "Em"dBG  |"Am"ABA "F"AGF  |
-"Am"EAA AGA    |"G"Bdd dcd  |"Am"eae "Em"dBG  |1 "Am"BAA A2F  :|2 "Am"BAA ABd  |]
-|:"A"eaa e3    |"A"eaa bag  |"A"eaa e3        |"G"BGB dBG      |
-"A"eaa e3      |"A"eaa bag  |"A"eae "G"dBG    |1 "A"BAA ABd   :|2 "A"BAA A3    |]
+|:"Am"EAA AGA   |"G"Bdd dcd   |"Am"eae "Em"dBG   |"Am"ABA "F"AGF   |
+"Am"EAA AGA     |"G"Bdd dcd   |"Am"eae "Em"dBG   |1 "Am"BAA A2F   :|2 "Am"BAA ABd   |]
+|:"A"eaa e3     |"A"eaa bag   |"A"eaa e3         |"G"BGB dBG       |
+"A"eaa e3       |"A"eaa bag   |"A"eae "G"dBG     |1 "A"BAA ABd    :|2 "A"BAA A3     |]
