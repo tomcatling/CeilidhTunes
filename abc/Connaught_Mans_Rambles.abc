@@ -4,7 +4,7 @@ R: jig
 M: 6/8
 L: 1/8
 K: Dmaj
-|:FAA dAA   |BAA dAG   |FAA dfe   |dBB BAG     |
-FAA dAA     |BAA def   |gfe dfe   |1dBB BAG   :|2 dBB B3      ||
-|:fbb faf   |fed ede   |fbb faf   |fed e3      |
-fbb faf     |fed def   |gfe dfe   |1 dBB B3   :|2 dBB BAG     ||
+|:"D"FAA dAA  |"G"BAA dAG  |"D"FAA dfe      |"G"dBB BAG    |
+|"D"FAA dAA   |"G"BAA def  |"Em"gfe "Bm"dfe |1"G"dBB BAG  :|2"G"dBB B3   |]
+|:"Bm"fbb faf |"Bm"fed ede |"Bm"fbb faf     |"Bm"fed "A"e3 |
+|"Bm"fbb faf  |"D"fed def  |"Em"gfe "Bm"dfe |1 "G"dBB B3  :|2 "G"dBB BAG |]

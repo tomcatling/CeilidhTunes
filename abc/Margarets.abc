@@ -7,15 +7,15 @@ V:T1 name="Melody"   snm="I"
 V:T2 name="Harmony"  snm="II"
 Q:1/2=60
 K: Gmaj
-[V:T1]                    |: G>E             | "G"D3 (E G>A)      | "Em"B4 G>B      | "C"A>G E2 G2   | "D"A4 A3/2E/2   |
-[V:T2]                    |:C2               |B,4D2               |G4 E3/2G/2       |C2 C2 C2        | D4 D2           |
-[V:T1]"G"D2- D>E G>A      | "Em"B>c d2 G>A   | "D(C)"B4 A2        | "G"G4          :|
-[V:T2]                    |B,4 D2            |G4 B2               |D2 E2 F2         | G4            :|
-[V:T1]B>c                 | "G"d2 e2 f2      | "C"g2 f2 g2        | "Am"e>d c2 e2   | "D"d4 B>A      |
-[V:T2]F2                  |G2 C2 D2          |E2 D2 E2            |C>D E2 G2        |F4 F2           |
-[V:T1]"G(Em)"G3 A B>c     | "Bm"d4 B>d       | "C"e>d c2 (3BGB    | "D"A4 B>c       |
-[V:T2]B,3 C D>C           | B4 G>D           | C>D E2 E2          | F4 F2           |
-[V:T1]"G"d>G e>G f>G      | "C"g>G f>G e>G   | "G"d>G c>G (3BGB   | "D"A4 G>E       |
-[V:T2]B2 c2 d2            | e2 d2 c2         | B2 G2 G2           | F4 D2           |
-[V:T1]"G(Em)"D3 (E G>A)   | "D(C)"(Bd3) G2   | "(D)"B4 A2         | "G"G4           |]
-[V:T2] B,4 D2             | G4 G2            | D4 F2              | G4              |]
+[V:T1] G>E |: "G"D3 (E G>A)   | "Em"B4 G>B     | "C"A>G E2 G2     | "D"A4 A3/2E/2 |
+[V:T2] C2  |: B,4D2           |G4 E3/2G/2      |C2 C2 C2          | D4 D2         |
+[V:T1]     |"G"D2- D>E G>A    | "Em"B>c d2 G>A | "D(C)"B4 A2      |1 "G"G4 G>E   :|2"G"G4 B>c |]
+[V:T2]     |B,4 D2            |G4 B2           |D2 E2 F2          |1 G4 C2       :|2G4 F2     |]
+[V:T1]     | "G"d2 e2 f2      | "C"g2 f2 g2    | "Am"e>d c2 e2    | "D"d4 B>A     |
+[V:T2]     |G2 C2 D2          |E2 D2 E2        |C>D E2 G2         |F4 F2          |
+[V:T1]     |"G(Em)"G3 A B>c   | "Bm"d4 B>d     | "C"e>d c2 (3BGB  | "D"A4 B>c     |
+[V:T2]     |B,3 C D>C         | B4 G>D         | C>D E2 E2        | F4 F2         |
+[V:T1]     |"G"d>G e>G f>G    | "C"g>G f>G e>G | "G"d>G c>G (3BGB | "D"A4 G>E     |
+[V:T2]     |B2 c2 d2          | e2 d2 c2       | B2 G2 G2         | F4 D2         |
+[V:T1]     |"G(Em)"D3 (E G>A) | "D(C)"(Bd3) G2 | "(D)"B4 A2       | "G"G4         |]
+[V:T2]     | B,4 D2           | G4 G2          | D4 F2            | G4            |]

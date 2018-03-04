@@ -7,11 +7,11 @@ V:T1 name="Melody"   snm="I"
 V:T2 name="Harmony"  snm="II"
 Q:1/2=60
 K: Dmaj
-[V:T1]de        |: f3e d2     | d2 de d2   |B4 A2      | F4 A2      | BA Bc d2   | e4 de   | f2 f2 e2   |
-[V:T2]FG        |:A4G2        |F3G AF      |G4GF       |D2A,2D2     |G4B2        |A2B2c2   |d2A3G       |F2D2F2    |
-[V:T1]d4 f2     | B4 e2       | A4 d2      | F4 E2     | D4 e2      | B4 e2      | A4 dc   | d6         | d4 de   :|
-[V:T2]G2E4      |F2D4         |A,4^A,2     |B,4F2      |G2F2E2      |A2A,4       |D6-      |-D4 A2     :|:
-[V:T1]          |: f2 fe d2   | ed ef a2   | b4 a2     | f4 ed      | e4 a2      | f4 e2   | d4 B2      | A4 BA    |
-[V:T2]          |:d2A4        |A2d2c2      |d2 GA Bc   |d2A4        |ABc2AB      |c2F2A2   |B2D2GF      |G2F2E2    |
-[V:T1]F4 E2     | D4 f2       |B4 e2       | A4 a2     | ba gf ed   | e4 dc      | d6      |1 d4 de    :|2 d6      |]
-[V:T2]A,4^A,2   |B,4F2        |G2E4        |F2D4       |GAB2G2      |A2A,4       |D6-      |1-D6       :|2 D6      |]
+[V:T1]de |: f3e d2   | d2 de d2 |B4 A2    | F4 A2  | BA Bc d2 | e4 de | f2 f2 e2 |
+[V:T2]FG |:A4G2      |F3G AF    |G4GF     |D2A,2D2 |G4B2      |A2B2c2 |d2A3G     |F2D2F2   |
+[V:T1]   |d4 f2      | B4 e2    | A4 d2   | F4 E2  | D4 e2    | B4 e2 | A4 dc    | d6      | d4 de :|
+[V:T2]   |F2 D2 F2   |G2E4      |F2D4     |A,4^A,2 |B,4F2     |G2F2E2 |A2A,4     |D6-      |-D4 A2 :|
+[V:T1]   |: f2 fe d2 | ed ef a2 | b4 a2   | f4 ed  | e4 a2    | f4 e2 | d4 B2    | A4 BA   |
+[V:T2]   |:d2A4      |A2d2c2    |d2 GA Bc |d2A4    |ABc2AB    |c2F2A2 |B2D2GF    |G2F2E2   |
+[V:T1]   |F4 E2      | D4 f2    |B4 e2    | A4 a2  | ba gf ed | e4 dc | d6       |1 d4 de :|2 d6    |]
+[V:T2]   |A,4^A,2    |B,4F2     |G2E4     |F2D4    |GAB2G2    |A2A,4  |D6-       |1-D6    :|2 D6    |]

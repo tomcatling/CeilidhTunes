@@ -4,7 +4,7 @@ R: jig
 M: 6/8
 L: 1/8
 K: Gmaj
-|:~G3 GAB   |~A3 ABd   |edd gdd   |edB dBA      |
-~G3 GAB     |~A3 ABd   |edd gdB   |1 AGF G2D   :|2 AGF G2A   |]
-|:~B3 dBd   |ege dBG   |~B3 dBG   |ABA AGA      |
-BAB dBd     |ege dBd   |~g3 aga   |bgf g3      :|]
+|:"G"~G3 GAB |"D"~A3 ABd |"C"edd gdd    |"D"edB dBA      |
+|"G"~G3 GAB  |"D"~A3 ABd |"C"edd "G"gdB |1"D"AGF "G"G2D :|2"D"AGF "G"G2A |]
+|:"G"~B3 dBd |"C"ege dBG |"G"~B3 dBG    |"Am"ABA "D"AGA  |
+|"G"BAB dBd  |"C"ege dBd |"C"~g3 aga    |"D"bgf "G"g3   :|]

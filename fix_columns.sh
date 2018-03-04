@@ -17,13 +17,16 @@ do
 	tune_body=$(tail -n +"$tune_start" $tune)
 
 	# process the body
-	# 	first replace any | with @|
-	# 	then remove excessive whitespace
-	# 	then columnise based on @, which will be removed
-	# 	then rearrange whitespace inserted between :|, |:, |] and ||
+	# 	replace any | with @|
+	# 	remove excessive whitespace
+	# 	columnise based on @, which will be removed
+	# 	remove extra 2 spaces inserted before |
+	# 	rearrange whitespace inserted between :|, |:, |] and ||
+	# 	append to the temporary file, replace the old one
 	echo "$tune_body" | sed 's/|/@|/g' \
 	| sed 's/ * / /g' \
 	| column -t -s'@' \
+	| sed 's/  |/|/g' \
 	| sed 's/:\( *\)|/\1:|/g' \
 	| sed 's/|\( *\):/|:\1/g' \
 	| sed 's/:\( *\)|/\1:|/g' \
