@@ -1,13 +1,12 @@
-X: 1
 T: Zycanthos
 R: jig
 M: 6/8
 L: 1/8
 Q:1/2=80
 K: Amin
-|:"Am" a2 a gag | "Am"e2 aagg | "Am"ecc BcB | "F"AFF F2 F |
-"Am"EAB cBA | "F"FAB cBA | "G"B2 B edB| "Em"Bcd "Am"cBA :|
-|: "AmE" EAB cBA | "F"FAB cBA | "G"B2 B edB | "Em"Bcd cBA |
-"Am"EAB cBA | "F"FAB cBA | "G"B2 B edB |1 "Am"B2 A2 "F"F2 :|2"Am"B2A2 Bc |]
-|: "Dm"d2 d-d2 c |"Dm" d c2 B2 A | "Dm"d2-d2 c d |"Em" B3 A3 |
-"Dm"d2 d-d2 c | "Dm"d c2 B2 A | "Dm"d d-d2 c d | "Em"e3 ecA :|]
+|:"Am" a2 a gag    | "Am"e2 aagg     | "Am"ecc BcB      | "F"AFF F2 F         |
+"Am"EAB cBA        | "F"FAB cBA      | "G"B2 B edB      | "Em"Bcd "Am"cBA    :|
+|: "AmE" EAB cBA   | "F"FAB cBA      | "G"B2 B edB      | "Em"Bcd cBA         |
+"Am"EAB cBA        | "F"FAB cBA      | "G"B2 B edB      |1 "Am"B2 A2 "F"F2   :|2"Am"B2A2 Bc   |]
+|: "Dm"d2 d-d2 c   |"Dm" d c2 B2 A   | "Dm"d2-d2 c d    |"Em" B3 A3           |
+"Dm"d2 d-d2 c      | "Dm"d c2 B2 A   | "Dm"d d-d2 c d   | "Em"e3 ecA         :|]

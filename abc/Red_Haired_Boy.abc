@@ -1,4 +1,3 @@
-X: 1
 T: The Red Haired Boy
 R: reel
 V:T1 name="Melody"   snm="I"
@@ -7,11 +6,11 @@ M: 4/4
 L: 1/8
 Q:1/2=80
 K: Amix
-[V:T1]|:AG|"A"E2 A2 ABcD|efec "D"d2 cd|"A"e2 A2 ABcA|"Em"BGAF G2 AG|
-[V:T2]|:AG|[E2A,2] [EC] z[E2A,2] [EC] z |[E2A2] [EB,]C [A2D2] [AF] z|[E2A,2] [EC] z[E2A,2] [EC] z [BE][BE]GE [B2E2] E z|
-[V:T1]"A"E2 AG A2 cd|efec "D"d2 cd|"A"eaab ag"Em"ed| c2 A2 A2:|
-[V:T2][E2A,2] [EC] z[E2A,2] [EC] z |[E2A2] [EB,]C [A2D2] [AF] z|[B2A,2] [EC] z [AD][BE]GE| A2 [E2A,2] [E2A,2] :|
-[V:T1]|:ef|"Em"gfga gfef|gfec "G"d2 cd|"A"edcB ABcA|"Em"BGEF G2 AG|
-[V:T2]|:GA|[B2E2] [Be] z B,DED |[B2E2] [Be] z [D2G,2] [DB,]G,|[E2A,2] [EC] z[E2A,2] [EC] z | [BE][BE]GE [B2E2] E z|
-[V:T1]"A"E2 AG A2 cd| efec "D"D2 cd|"A"eaab ag"Em"ed|"A"c2 A2 A2:|
-[V:T2][e2A2] [ec] z [e2A2] [ec] z| [e2A2] [eB]c [A2D2] [AF] z| [EA,][EA,]CA, [AD][BE]GE| A2 [E2A,2] [E2A,2]:|
+[V:T1]                               |:AG                          |"A"E2 A2 ABcD                  |efec "D"d2 cd                  |"A"e2 A2 ABcA                                       |"Em"BGAF G2 AG          |
+[V:T2]                               |:AG                          |[E2A,2] [EC] z[E2A,2] [EC] z   |[E2A2] [EB,]C [A2D2] [AF] z    |[E2A,2] [EC] z[E2A,2] [EC] z [BE][BE]GE [B2E2] E z  |
+[V:T1]"A"E2 AG A2 cd                 |efec "D"d2 cd                |"A"eaab ag"Em"ed               | c2 A2 A2                     :|
+[V:T2][E2A,2] [EC] z[E2A,2] [EC] z   |[E2A2] [EB,]C [A2D2] [AF] z  |[B2A,2] [EC] z [AD][BE]GE      | A2 [E2A,2] [E2A,2]           :|
+[V:T1]                               |:ef                          |"Em"gfga gfef                  |gfec "G"d2 cd                  |"A"edcB ABcA                                        |"Em"BGEF G2 AG          |
+[V:T2]                               |:GA                          |[B2E2] [Be] z B,DED            |[B2E2] [Be] z [D2G,2] [DB,]G,  |[E2A,2] [EC] z[E2A,2] [EC] z                        | [BE][BE]GE [B2E2] E z  |
+[V:T1]"A"E2 AG A2 cd                 | efec "D"D2 cd               |"A"eaab ag"Em"ed               |"A"c2 A2 A2                   :|
+[V:T2][e2A2] [ec] z [e2A2] [ec] z    | [e2A2] [eB]c [A2D2] [AF] z  | [EA,][EA,]CA, [AD][BE]GE      | A2 [E2A,2] [E2A,2]           :|

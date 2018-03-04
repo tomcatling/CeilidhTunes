@@ -1,12 +1,11 @@
-X:1
 T:Midnight On The Water
 M:3/4
 L:1/8
 Q:1/2=60
 K:Cmaj
-CD |: "C"E2 E2 ED |"C" E2 E2 ED|"C" E G3 GA|"C" GEDC CD |
-"C"E2 c2 "F"A2 |"C" G3 E CD |"G" E2 GE DE |1"C" C4 CD :|2"C" C4 (3GAB||
-|:"C"c6|"C" cB AG AB|"C" c3 A GE|"C" C4 c2|
-"Dm"d d3 e2|"Dm" d2 c2 d2|"Am"e g3 e2|"Am"fedc AB|
-"F"c3 Bcd|"F" cB AG AB |"C" c3 A GE |"C" C4 CD |
-"C"E2 c2 "F"A2 |"C" G3 E CD |"G" E2 GE DE |"C" C4 ||
+CD               |: "C"E2 E2 ED   |"C" E2 E2 ED   |"C" E G3 GA   |"C" GEDC CD    |
+"C"E2 c2 "F"A2   |"C" G3 E CD     |"G" E2 GE DE   |1"C" C4 CD   :|2"C" C4 (3GAB    ||
+|:"C"c6          |"C" cB AG AB    |"C" c3 A GE    |"C" C4 c2     |
+"Dm"d d3 e2      |"Dm" d2 c2 d2   |"Am"e g3 e2    |"Am"fedc AB   |
+"F"c3 Bcd        |"F" cB AG AB    |"C" c3 A GE    |"C" C4 CD     |
+"C"E2 c2 "F"A2   |"C" G3 E CD     |"G" E2 GE DE   |"C" C4                       ||

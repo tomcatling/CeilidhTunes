@@ -21,6 +21,28 @@ keys+=( "Petronella" )
 sets["Ceilidh_Band_Reel"]="Dashing_White_Sergeant"; 
 keys+=( "Ceilidh_Band_Reel" )
 
+# scottish reels
+sets["Mrs_Mccleod"]="Scottish_Reels"; 
+keys+=( "Mrs_Mccleod" )
+sets["Fairy_Dance"]="Scottish_Reels"; 
+keys+=( "Fairy_Dance" )
+sets["Staten_Island"]="Scottish_Reels"; 
+keys+=( "Staten_Island" )
+sets["High_Road_To_Linton"]="Scottish_Reels"; 
+keys+=( "High_Road_To_Linton" )
+sets["Masons_Apron"]="Scottish_Reels"; 
+keys+=( "Masons_Apron" )
+
+# congress
+sets["Prince_Of_Wales"]="Congress";
+keys+=( "Prince_Of_Wales" )
+sets["The_Congress_Reel"]="Congress"; 
+keys+=( "The_Congress_Reel" )
+sets["Elzics_Farewell"]="Congress"; 
+keys+=( "Elzics_Farewell" )
+sets["Jack_Broons_70th"]="Congress"; 
+keys+=( "Jack_Broons_70th" )
+
 # from the new country
 sets["From_The_New_Country"]="From_The_New_Country"; 
 keys+=( "From_The_New_Country" )
@@ -28,6 +50,30 @@ sets["The_Blackthorn_Stick"]="From_The_New_Country";
 keys+=( "The_Blackthorn_Stick" )
 sets["Irish_Washerwoman"]="From_The_New_Country"; 
 keys+=( "Irish_Washerwoman" )
+
+# irish jigs
+sets["Lark_In_The_Morning"]="Irish_Jigs"; 
+keys+=( "Lark_In_The_Morning" )
+sets["Lilting_Banshee"]="Irish_Jigs"; 
+keys+=( "Lilting_Banshee" )
+sets["Connaught_Mans_Rambles"]="Irish_Jigs"; 
+keys+=( "Connaught_Mans_Rambles" )
+sets["The_Kesh"]="Irish_Jigs"; 
+keys+=( "The_Kesh" )
+
+# slip jigs
+sets["The_Butterfly"]="Slip_Jigs"; 
+keys+=( "The_Butterfly" )
+sets["Dublin_Streets"]="Slip_Jigs"; 
+keys+=( "Dublin_Streets" )
+sets["Barney_Brannigan"]="Slip_Jigs"; 
+keys+=( "Barney_Brannigan" )
+sets["Sir_Roger_De_Coverley"]="Slip_Jigs"; 
+keys+=( "Sir_Roger_De_Coverley" )
+sets["The_Peacock_Followed_The_Hen"]="Slip_Jigs"; 
+keys+=( "The_Peacock_Followed_The_Hen" )
+sets["Fox_Hunters_Jig"]="Slip_Jigs"; 
+keys+=( "Fox_Hunters_Jig" )
 
 # king of the fairies
 sets["King_of_the_Fairies"]="King_of_the_Fairies"; 
@@ -109,16 +155,16 @@ for tune in "${keys[@]}"
 do 
 
 	if [ -f "$tune.abc" ]
-    then
-		
+    then	
 		echo "\begin{abc}[name=$tune]" >> "${sets[$tune]}.tex"
 		abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set surrounded by the LaTeX strings
 		echo "\end{abc}" >> "${sets[$tune]}.tex"
 		echo "" >> "${sets[$tune]}.tex"
 		
 	else
-	   echo "Can't find $tune.abc!"
-	   exit 1
+	   echo "Couldn't find $tune.abc - made an empty file."
+	   touch "$tune.abc"
+	   abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set surrounded by the LaTeX strings
 	fi
 		
 done
