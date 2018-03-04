@@ -74,8 +74,8 @@ sets["Forest_Flowers"]="Flatbush_Set";
 keys+=( "Forest_Flowers" )
 
 # Margarets Set
-sets["Midnight_On_The_Water"]="Margarets_Set"; 
-keys+=( "Midnight_On_The_Water" )
+sets["My_Cape_Breton_Home"]="Margarets_Set"; 
+keys+=( "My_Cape_Breton_Home" )
 sets["Margarets"]="Margarets_Set"; 
 keys+=( "Margarets" )
 
