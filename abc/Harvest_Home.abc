@@ -5,7 +5,6 @@ V:T1 name="Melody"   snm="I"
 V:T2 name="Harmony"  snm="II"
 M: 4/4
 L: 1/8
-Q:1/2=80
 K: Dmaj
 [V:T1]"A"AF |:"D"DAFA DAFA            |"D"defe dcBA             |"A"eAfA gAfA              |"Em"(3efe (3dcB "A7"(3ABA (3GFE          |
 [V:T2]AF    |:D2 [AF] z F2 [AF] z     | A,2 [A,F] z B,2 [B,D] z | A,2 [A2D2] [A2E2] [A2D2] | [EA,][EA,][EB,][EB,] [E=C][EC][E^C][EC] |

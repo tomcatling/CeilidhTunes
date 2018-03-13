@@ -114,30 +114,38 @@ sets["Hand_Me_Down_The_Tackle"]="Irish_Reels";
 keys+=( "Hand_Me_Down_The_Tackle" )
 
 # Flatbush Set
-sets["Flatbush"]="Flatbush_Set"; 
-keys+=( "Flatbush" )
-sets["Forest_Flowers"]="Flatbush_Set"; 
-keys+=( "Forest_Flowers" )
+#sets["Flatbush"]="Flatbush_Set"; 
+#keys+=( "Flatbush" )
+#sets["Forest_Flowers"]="Flatbush_Set"; 
+#keys+=( "Forest_Flowers" )
 
 # Margarets Set
-sets["My_Cape_Breton_Home"]="Margarets_Set"; 
-keys+=( "My_Cape_Breton_Home" )
-sets["Margarets"]="Margarets_Set"; 
-keys+=( "Margarets" )
+#sets["My_Cape_Breton_Home"]="Margarets_Set"; 
+#keys+=( "My_Cape_Breton_Home" )
+#sets["Margarets"]="Margarets_Set"; 
+#keys+=( "Margarets" )
 
 # Waltzes
 sets["The_Dark_Island"]="Waltzes"; 
 keys+=( "The_Dark_Island" )
 sets["Ashokan_Farewell"]="Waltzes"; 
 keys+=( "Ashokan_Farewell" )
+sets["Carolans_Welcome"]="Waltzes"; 
+keys+=( "Carolans_Welcome" )
+sets["Margarets"]="Waltzes"; 
+keys+=( "Margarets" )
+sets["Captain_OKane"]="Waltzes"; 
+keys+=( "Captain_OKane" )
+sets["Flatbush"]="Waltzes"; 
+keys+=( "Flatbush" )
+sets["Forest_Flowers"]="Waltzes"; 
+keys+=( "Forest_Flowers" )
 
 
 
 # Airs
 sets["Tune_For_Dad"]="Airs"; 
 keys+=( "Tune_For_Dad" )
-sets["Captain_OKane"]="Airs"; 
-keys+=( "Captain_OKane" )
 sets["Si_Beag_Si_Mor"]="Airs"; 
 keys+=( "Si_Beag_Si_Mor" )
 sets["Carolans_Farewell"]="Airs"; 
@@ -164,6 +172,7 @@ do
 	else
 	   echo "Couldn't find $tune.abc - made an empty file."
 	   touch "$tune.abc"
+	   echo "|CDEFGABc|"
 	   abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set surrounded by the LaTeX strings
 	fi
 		

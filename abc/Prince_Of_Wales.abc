@@ -1,13 +1,10 @@
-X:1
-T:Palceholder
-M:3/4
-L:1/8
-R:waltz
-Q:1/2=60
-K:EMin
-ED |:"Em"B,2E2F2 |G4FE         |"D"FG AG FE |"Bm"D2E2F2  |
-   |"C"G2B2G2    |BA GF ED     |"Em"B,2E2ED |1"Bm"E4 ED :|2 "Bm"E4 EF |
-   |:"Em"G2B2B2  |B4AG         |"D"F2A2A2   |"Bm"A4dc    |"Am"B2e3e   |"C"e2f2g2  |
-   |"Am"B2e2^d2  |"C"e4 "D"ef  |"Em"g2f2e2  |"Em7"d2c2B2 |"D"AGF2d2   |"Bm"D2E2F2 |
-   |1"C"G2B2G2   |BA GF ED     |"Em"B,2E2EF |"Bm"E4 EF  :|
-   |2"Am"G2B2G2  |"Em"BA GF ED |"Am"B,2E2EF |"Em"E4      |]
+X: 1
+T: The Prince Of Wales
+R: reel
+M: 4/4
+L: 1/8
+K: Amaj
+|:"A"c2 BA A3 B    |"A"ceeA "D"feca     |"F#m"c2 BA A3 c     |"F#m"Bcac "E"BGGB|
+|"A"c2 BA A3 B     |"A"ceeA "F#m"feca   |"D"d3 e faaf        |1 "E"ecBd cAAB  :|2 "E"ecdc "A"A2 z2 |]
+|:"A" (3cBA eA fAeA| "A"(3cBA eA "D"feca| "F#m"(3cBA eA fAec |"F#m"Bcac "E"BGGB|
+|"A" (3cBA eA fAeA |"F#m"(3cBA eA fece  |"D"d3 e faaf        |1 "E"ecBd cAAB  :|2 "E"ecBc "A"A2 z2 |]

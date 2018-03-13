@@ -1,14 +1,10 @@
-X:1
-T:Palceholder
-M:3/4
-L:1/8
-R:waltz
-Q:1/2=60
-K:EMin
-ED |:"Em"B,2E2F2 |G4FE         |"D"FG AG FE |"Bm"D2E2F2  |
-   |"C"G2B2G2    |BA GF ED     |"Em"B,2E2ED |1"Bm"E4 ED :|2"Bm"E4 EF |]
-   |:"Em"G2B2B2  |B4AG         |"D"F2A2A2   |"Bm"A4dc    |
-   |"Am"B2e3e    |"C"e2f2g2    |"Am"B2e2^d2 |"C"e4 "D"ef |
-   |"Em"g2f2e2   |"Em7"d2c2B2  |"D"AGF2d2   |"Bm"D2E2F2  |
-   |1"C"G2B2G2   |BA GF ED     |"Em"B,2E2EF |"Bm"E4 EF  :|
-   |2"Am"G2B2G2  |"Em"BA GF ED |"Am"B,2E2EF |"Em"E4      |]
+X: 7
+T: The Mason's Apron
+R: reel
+M: 4/4
+L: 1/8
+K: Amaj
+ed |: "A"cA (3AAA ABAF | "A"EFAB "F#m"dcBA  | "Bm"dB (3BBB BcBA  | "Bm"Bcd(e "E7"gf)ed |
+   |"A"cA (3AAA ABAF   | "A"EFAB dcBA       | "Bm"Bcd(e "D"fe)fa | "E7"edcB "A"A2 ed  :|]
+   |: "A"cAeA fAe(A    |"A"cA)eA "F#m"fedc  | "Bm"dBfB gBfB      | "Bm"dBfB "E7"gfed   |
+   |"A"cAeA fAe(A      | "A"cA)eA "F#m"fedc | "Bm"Bcd(e "D"fe)fa |1 "E7"edcB "A"A2 ed :|2 "E7"edcB "A"A2 |]

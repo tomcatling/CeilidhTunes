@@ -4,7 +4,8 @@
 \usepackage{abc}
 \usepackage{pdfpages}
 \usepackage[compact]{titlesec}
-
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks,
@@ -31,6 +32,10 @@
 	\ifodd\value{page}\hbox{}\newpage\fi
 }
 
+\newcommand*{\cleartorightpage}{%
+	\clearpage
+	\ifodd\value{page}\else\hbox{}\newpage\fi
+}
 
 \begin{document}
 
@@ -39,7 +44,7 @@
 \titleformat
 	{\chapter} % command
 	[display] % shape
-	{\bfseries\Huge} % format
+	{\Huge\Fontauri\bfseries} % format
 	{} % label
 	{0.5ex} % sep
 	{
@@ -56,7 +61,7 @@
 \titleformat
 	{\section}
 	[display]
-	{\bfseries\huge\itshape}
+	{\huge\itshape\Fontauri\bfseries}
 	{}
 	{0.5em}
 	{
@@ -85,23 +90,24 @@
 
 %%%
 %%% JIGS
-\cleartoleftpage
+\cleartorightpage
 \chapter*{Jigs}
 \addcontentsline{toc}{chapter}{Jigs}
 \begin{center}
-\includegraphics[width=8cm]{../images/jigs}
+\includegraphics[width=\textwidth]{../images/jigs}
 \end{center}
 
+	\cleartoleftpage
+	\section*{Irish Jigs}
+	\phantomsection
+	\addcontentsline{toc}{section}{Irish Jigs}
+	\input{Irish_Jigs}
+
+	\cleartoleftpage
 	\section*{From The New Country}
 	\phantomsection
 	\addcontentsline{toc}{section}{From The New Country}
 	\input{From_the_New_Country}
-
-	\cleartoleftpage
-	\section*{Irish Jigs (to do)}
-	\phantomsection
-	\addcontentsline{toc}{section}{Irish Jigs}
-	\input{Irish_Jigs}
 
 	\cleartoleftpage
 	\section*{Zycanthos}
@@ -117,13 +123,14 @@
 
 %%%
 %%% REELS
-\cleartoleftpage
+\cleartorightpage
 \chapter*{Reels}
 \addcontentsline{toc}{chapter}{Reels}
 \begin{center}
-\includegraphics[width=8cm]{../images/reels}
+\includegraphics[width=\textwidth]{../images/reels}
 \end{center}
 
+	\cleartoleftpage
 	\section*{Irish Reels}
 	\phantomsection
 	\addcontentsline{toc}{section}{Irish Reels}
@@ -136,13 +143,13 @@
 	\input{Dashing_White_Sergeant}
 
 	\cleartoleftpage
-	\section*{Scottish Reels (to do)}
+	\section*{Scottish Reels}
 	\phantomsection
 	\addcontentsline{toc}{section}{Scottish Reels}
 	\input{Scottish_Reels}
 
 	\cleartoleftpage
-	\section*{Congress (to do)}
+	\section*{Congress}
 	\phantomsection
 	\addcontentsline{toc}{section}{Congress}
 	\input{Congress}
@@ -155,13 +162,14 @@
 
 %%%
 %%% HORNPIPES
-\cleartoleftpage
+\cleartorightpage
 \chapter*{Hornpipes}
 \addcontentsline{toc}{chapter}{Hornpipes}
 \begin{center}
-\includegraphics[width=8cm]{../images/hornpipes}
+\includegraphics[width=\textwidth]{../images/hornpipes}
 \end{center}
 
+	\cleartoleftpage
 	\section*{King of the Fairies}
 	\phantomsection
 	\addcontentsline{toc}{section}{King of the Fairies}
@@ -169,39 +177,43 @@
 
 %%%
 %%% WALTZES
-\cleartoleftpage
+\cleartorightpage
 \chapter*{Waltzes}
 \addcontentsline{toc}{chapter}{Waltzes}
 \begin{center}
-\includegraphics[width=4cm]{../images/waltzes}
+\includegraphics[width=0.6\textwidth]{../images/waltzes}
 \end{center}
 
-	\section*{Flatbush Set}
-	\phantomsection
-	\addcontentsline{toc}{section}{Flatbush Set}
-	\input{Flatbush_Set}
+%	\section*{Flatbush Set}
+%	\phantomsection
+%	\addcontentsline{toc}{section}{Flatbush Set}
+%	\input{Flatbush_Set}
+
+%	\cleartoleftpage
+%	\section*{Margaret's Set}
+%	\phantomsection
+%	\addcontentsline{toc}{section}{Margaret's Set}
+%	\input{Margarets_Set}
+
+%	\cleartoleftpage
+%	\section*{Waltzes}
+%	\phantomsection
+%	\addcontentsline{toc}{section}{Waltzes}
 
 	\cleartoleftpage
-	\section*{Margaret's Set}
-	\phantomsection
-	\addcontentsline{toc}{section}{Margaret's Set}
-	\input{Margarets_Set}
-
-	\cleartoleftpage
-	\section*{Unsorted}
-	\phantomsection
-	\addcontentsline{toc}{section}{Unsorted}
 	\input{Waltzes}
 
 %%%
 %%% AIRS
-\cleartoleftpage
+\cleartorightpage
 \chapter*{Airs}
 \addcontentsline{toc}{chapter}{Airs}
 \begin{center}
-\includegraphics[width=6cm]{../images/misc}
+\includegraphics[width=\textwidth]{../images/misc}
 \end{center}
 
+
+	\cleartoleftpage
 	\input{Airs}
 
 %\chapter*{Miscellaneous}

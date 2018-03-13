@@ -1,13 +1,10 @@
-X:1
-T:Palceholder
-M:3/4
-L:1/8
-R:waltz
-Q:1/2=60
-K:EMin
-|:ED         |"Em"B,2E2F2  |G4FE        |"D"FG AG FE |"Bm"D2E2F2 |
-"C"G2B2G2    |BA GF ED     |"Em"B,2E2ED |"Bm"E4     :|
-|:EF         |"Em"G2B2B2   |B4AG        |"D"F2A2A2   |"Bm"A4dc   |"Am"B2e3e  |"C"e2f2g2 |
-"Am"B2e2^d2  |"C"e4 "D"ef  |"Em"g2f2e2  |"Em7"d2c2B2 |"D"AGF2d2  |"Bm"D2E2F2 |
-|1"C"G2B2G2  |BA GF ED     |"Em"B,2E2EF |"Bm"E4     :|
-|2"Am"G2B2G2 |"Em"BA GF ED |"Am"B,2E2EF |"Em"E4      |]
+X: 1
+T: The Congress
+R: reel
+M: 4/4
+L: 1/8
+K: Ador
+|:"Am"eAAA A2Bd |"Am"eaaf gedg |"Am"eAAA eAdA      |"G"BGGG Bcdg  |
+|"Am"eAAA A2Bd  |"Am"eaaf gedB |"F"(c2 c)d ef(3gfe |"G"dBgB A2Bd :|]
+|:"F"eaag abag  |"F"eaag eg d2 | "G"egdg egdg      |"G"eaaf gedg  |
+|"F"eaag a2ag   |"F"eaaf gedB  | "E"GABd eaaf      | "E"gedB A2Bd:|]

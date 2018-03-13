@@ -5,7 +5,6 @@ V:T1 name="Melody"   snm="I"
 V:T2 name="Harmony"  snm="II"
 M: 4/4
 L: 1/8
-Q:1/2=80
 K: Amix
 [V:T1] AG |:"A"E2 A2 ABcD                |efec "D"d2 cd                 |"A"e2 A2 ABcA                 |"Em"BGAF G2 AG           |
 [V:T2] AG |:[E2A,2] [EC] z[E2A,2] [EC] z |[E2A2] [EB,]C [A2D2] [AF] z   |[E2A,2] [EC] z [E2A,2] [EC] z | [BE][BE]GE [B2E2] E z   |
