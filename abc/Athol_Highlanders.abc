@@ -1,0 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
+X: 6
+T: The Atholl Highlanders
+R: jig
+M: 6/8
+L: 1/8
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
+K: Amix
+[V:T1] |: "A"[e3A3] ecA | ecA "Bm"Bcd | "A"[e3A3] ecA | "G"Bcd "E"c2B   |
+[V:T2] |: z6            | z6          | z6            | z6              |
+[V:T1] | "A"[e3A3] ecA  | ecA "Bm"Bcd | "A"eae "D"fed | "E7"cdB "A"A3  :|]
+[V:T2] | z6             | z6          | z6            | z6             :|]
+[V:T1] |: "A"Ace Ace    | "D"Adf Adf  | "A"Ace Ace    | "Bm"Bcd "E7"c2 B|
+[V:T2] |: z6            | z6          | z6            | z6              |
+[V:T1] |"A"Ace Ace      | "D"Adf Adf  | "A"eae fed    |1 "E7"cdB A3    :|2 "E7"cdB A2 |]
+[V:T2] | z6             | z6          | z6            | z6             :| z5          |]

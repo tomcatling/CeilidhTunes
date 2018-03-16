@@ -1,9 +1,10 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 4
 T: Ashokan Farewell
 R: waltz
 M: 3/4
 L: 1/8
-Q:1/2=60
 K: Dmaj
 Ac |:"D" d3 cBA |"D7" F4 EF   |"G" G3 FED     |"Em" B,2D3B, |
    |"D" A,2D2F2 |"Bm" A2d2f2  |"Em" f3gf2     |"A7" e4Acj   |

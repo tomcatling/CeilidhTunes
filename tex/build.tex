@@ -3,8 +3,10 @@
 \documentclass[12pt]{report}
 \usepackage{abc}
 \usepackage{pdfpages}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
 \usepackage[compact]{titlesec}
-\usepackage{aurical}
+\usepackage[nf]{coelacanth}
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
 \hypersetup{
@@ -19,8 +21,8 @@
 \usepackage{geometry}
 \geometry{
 	a4paper,
-	left=20mm,
-	right=20mm,
+	left=15mm,
+	right=15mm,
 	top=17mm,
 	bottom=17mm,
 }
@@ -37,6 +39,19 @@
 	\ifodd\value{page}\else\hbox{}\newpage\fi
 }
 
+\renewcommand{\cfttoctitlefont}{\Huge\normalfont\bfseries}
+\renewcommand{\cftchappagefont}{\huge\normalfont}
+\renewcommand{\cftsecpagefont}{\Large\normalfont}
+\renewcommand{\cftchapfont}{\huge\normalfont}
+\renewcommand{\cftsecfont}{\Large\normalfont}
+
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\Large\normalfont\selectfont\thepage} % except the center
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}}
+\pagestyle{empty}
+
 \begin{document}
 
 %%%
@@ -44,7 +59,7 @@
 \titleformat
 	{\chapter} % command
 	[display] % shape
-	{\Huge\Fontauri\bfseries} % format
+	{\normalfont\bfseries\Huge} % format
 	{} % label
 	{0.5ex} % sep
 	{
@@ -61,7 +76,7 @@
 \titleformat
 	{\section}
 	[display]
-	{\huge\itshape\Fontauri\bfseries}
+	{\normalfont\bfseries\huge}
 	{}
 	{0.5em}
 	{
@@ -76,21 +91,21 @@
 
 %%%
 %%% CONTENT
-\includepdf{../images/cover_fixed.pdf}
+%\includepdf{../images/cover_fixed.pdf}
 
 
-\begin{center}
-	\includegraphics[width=\textwidth]{../images/fifths}
-\end{center}
-\thispagestyle{empty}
-\newpage
+%\begin{center}
+%	\includegraphics[width=\textwidth]{../images/fifths}
+%\end{center}
+%\newpage
 
-\tableofcontents
-\pagenumbering{arabic} % reset page numbers
+{\normalfont\tableofcontents\thispagestyle{empty}}
 
 %%%
 %%% JIGS
 \cleartorightpage
+\pagestyle{plain}
+\pagenumbering{arabic} % reset page numbers
 \chapter*{Jigs}
 \addcontentsline{toc}{chapter}{Jigs}
 \begin{center}
@@ -108,6 +123,12 @@
 	\phantomsection
 	\addcontentsline{toc}{section}{From The New Country}
 	\input{From_the_New_Country}
+
+	\cleartoleftpage
+	\section*{The Hundred Pipers}
+	\phantomsection
+	\addcontentsline{toc}{section}{The Hundred Pipers}
+	\input{Hundred_Pipers}
 
 	\cleartoleftpage
 	\section*{Zycanthos}
@@ -183,11 +204,6 @@
 \begin{center}
 \includegraphics[width=0.6\textwidth]{../images/waltzes}
 \end{center}
-
-%	\section*{Flatbush Set}
-%	\phantomsection
-%	\addcontentsline{toc}{section}{Flatbush Set}
-%	\input{Flatbush_Set}
 
 %	\cleartoleftpage
 %	\section*{Margaret's Set}

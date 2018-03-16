@@ -1,9 +1,10 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 5
 T: Hand Me Down The Tackle
 R: reel
 M: 4/4
 L: 1/8
-Q:1/2=80
 K: Dmaj
 |: "D"dD~D2 FAAB | "D"defd "G"edBc   | "D"dD~D2 FAAF    | "C"GFEF "A7"GABc   |
 |"D"dD~D2 FAAB   | "D"defd "A7"cdeg  |"Bm"fdec "G"dcBA  | "Em"GFEF "A7"GABc :|]

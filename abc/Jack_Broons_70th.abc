@@ -1,3 +1,5 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 1
 T: Jock Brown's 70th
 R: hornpipe
@@ -9,4 +11,4 @@ cd |:"A"e3e efed     |cAA/A/A EAce|"G"g4 gfga       |"D"f4 fefg       |
    |:"A"a2cd ecde    |cdac decd   |"G/A"a2cd ecde   |cdac dgg/g/g     |
    |"D/A"a2cd ecde   |cdac decA   |"C"GAA/A/G d3A   |1 "Bm7"GAde d2cd:|2 "Bm7"GAde d2dc |]
    |:"A"A2 G(A A)G A2|GA2 GA2 dc  |"G"A2 G(A A)G A2 |"D"GAde d2dc     |
-   |"A"A2 G(A A)G A2 |GA2 GA2 dA  |"G"GAde d2 dA    |"Bm"dcde d2dc :|]
+   |"A"A2 G(A A)G A2 |GA2 GA2 dA  |"G"GAde d2 dA    |"Bm"dcde d2dc   :|]

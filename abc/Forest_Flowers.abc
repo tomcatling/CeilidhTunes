@@ -1,9 +1,10 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 11
 T: Forest Flowers
 R: waltz
 M: 3/4
 L: 1/8
-Q:1/2=60
 K: Amin
 EF |:"Am"E2A2B2  |"F"c2B2A2 |"C"e2"B"e^d "E"ef |e4EF           |
    |E2A2B2       |c2B2A2    |"Dm"f2 fe fg      |f4fe           |

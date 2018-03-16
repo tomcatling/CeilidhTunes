@@ -1,9 +1,10 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 3
 T: Hull's Reel
 R: reel
 M: 4/4
 L: 1/8
-Q:1/2=80
 K: Emaj
 |:"E"BEEc B2 Bc      | "E"BEEB "A"cBce     | "E"BEEc B2 GB    | "A"cBce "B"fefg  |
 |"E"BEEc B2 Bc       | "E"BEEB cBce        | "F#m"fgfe cagf   |1 "A"eccB ceec   :|2 "A"eccB ceef |]

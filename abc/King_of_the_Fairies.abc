@@ -1,16 +1,17 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 1
 T: King Of The Fairies
 R: hornpipe
-V:T1 name="Melody"   snm="I"
-V:T2 name="Harmony"  snm="II"
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 M: 4/4
 L: 1/8
-Q:1/2=80
 K: G
 [V:T1] B,2 |:"Em"EDEF GFGA              |B2B2 G3A                    |B2E2 EFGE                   |"D"FGFE D3B,            |
 [V:T2] B,2 |:[E2B2] [GB] z [E2B2] [BG]F |[E2B2] [GB] z EB,EF         |[E2B2] [GB] z [E2B2] [GB] z |[A2D2] [AF] z [AF]A,B,D |
 [V:T1]     |"Em"EDEF GFGA               |BAGB "D"d3c                 |"Em"B2E2 "Bm"GFED           |1"Em"E6 B,2            :|2"Em"E6 z d           |]
-[V:T2]     |[E2B2] [GB] z [E2B2] [BG]F  |[E2B2] [GB] z [A2D2] [AF] z |[B2E2] [eB] z [B2E2] gf     |1e2 [B2E2] [B2E2] B,2  :|2e2 [B2E2] [B2E2] z d |]
+[V:T2]     |[E2B2] [GB] z [E2B2] [BG]F  |[E2B2] [GB] z [A2D2] [AF] z |[B2E2] [eB] z [B2E2] gf     | e2 [B2E2] [B2E2] B,2  :| e2 [B2E2] [B2E2] z d |]
 [V:T1]     |:"Em"e2e2 Bdef              |gagf e3f                    |"Em"e2B2 BAB^c              |"Bm"dedc B^c (3dcB      |
 [V:T2]     |:[E2B2] [GB] z [E2B2] [BG]F |[B2E2] [BG] z CA,CD         |[B2E2] [eB] z [B2E2] [eB] z |B2 A2 [BG][BG][BF][BF]  |
 [V:T1]     |"Em"e2B2 Bdef               |gagf "C"e3f                 |"Em"gf (3efg "D"fe (3def    |"Em"e2 ed e3 f          |
@@ -18,4 +19,4 @@ K: G
 [V:T1]     |g2 z e "D"f2 z d            |"Em"edB^c d3 e              |"D"dBAF "Em"GAB^c           |"Bm"dBAF "Em"GFED       |
 [V:T2]     |[e2B2E2] z2 [f2A2D2] z2     |[B2E2] [BG] z B,2 DB,       | [A2D2] [AF] z E2 GE        | B2 F2 EA,B,D           |
 [V:T1]     |B,2 E2 EFGA                 |B2 e2 edef                  |e2 B2 "Bm"BAGF              |1"Em"E6 z d            :|2"Em"E6               |]
-[V:T2]     |[B2E2] [BG] z [B2E2] [BG]F  |[B2E2] [BG] z [B2E2] GA     | [B2E2] [Be] z B,2 ED       |1 E2 [B2E2] [B2E2] z d :|2 E2 [B2E2] [B2E2]    |]
+[V:T2]     |[B2E2] [BG] z [B2E2] [BG]F  |[B2E2] [BG] z [B2E2] GA     | [B2E2] [Be] z B,2 ED       | E2 [B2E2] [B2E2] z d  :| E2 [B2E2] [B2E2]     |]

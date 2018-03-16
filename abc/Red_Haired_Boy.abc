@@ -1,16 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
 X: 1
 T: The Red Haired Boy
 R: reel
-V:T1 name="Melody"   snm="I"
-V:T2 name="Harmony"  snm="II"
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 M: 4/4
 L: 1/8
 K: Amix
-[V:T1] AG |:"A"E2 A2 ABcD                |efec "D"d2 cd                 |"A"e2 A2 ABcA                 |"Em"BGAF G2 AG           |
-[V:T2] AG |:[E2A,2] [EC] z[E2A,2] [EC] z |[E2A2] [EB,]C [A2D2] [AF] z   |[E2A,2] [EC] z [E2A,2] [EC] z | [BE][BE]GE [B2E2] E z   |
-[V:T1]    |"A"E2 AG A2 cd                |efec "D"d2 cd                 |"A"eaab ag"Em"ed              |1 c2 A2 A2 AG           :|2 c2 A2 A2 ef           |]
-[V:T2]    |[E2A,2] [EC] z[E2A,2] [EC] z  |[E2A2] [EB,]C [A2D2] [AF] z   |[B2A,2] [EC] z [AD][BE]GE     |1 A2 [E2A,2] [E2A,2] AG :|2 A2 [E2A,2] [E2A,2] GA |]
-[V:T1]    |:"Em"gfga gfef                |gfec "G"d2 cd                 |"A"edcB ABcA                  |"Em"BGEF G2 AG           |
-[V:T2]    |:[B2E2] [Be] z B,DED          |[B2E2] [Be] z [D2G,2] [DB,]G, |[E2A,2] [EC] z[E2A,2] [EC] z  | [BE][BE]GE [B2E2] E z   |
-[V:T1]    |"A"E2 AG A2 cd                | efec "D"D2 cd                |"A"eaab ag"Em"ed              |1"A"c2 A2 A2 ef         :|2"A"c2 A2 A2 AF         |]
-[V:T2]    |[e2A2] [ec] z [e2A2] [ec] z   | [e2A2] [eB]c [A2D2] [AF] z   | [EA,][EA,]CA, [AD][BE]GE     |1 A2 [E2A,2] [E2A,2] GA :|2 A2 [E2A,2] [E2A,2] AF |]
+[V:T1] AG |:"A"E2 A2 ABcD                |efec "D"d2 cd                 |"A"e2 A2 ABcA                 |"Em"BGAF G2 AG          |
+[V:T2] AG |:[E2A,2] [EC] z[E2A,2] [EC] z |[E2A2] [EB,]C [A2D2] [AF] z   |[E2A,2] [EC] z [E2A,2] [EC] z | [BE][BE]GE [B2E2] E z  |
+[V:T1]    |"A"E2 AG A2 cd                |efec "D"d2 cd                 |"A"eaab ag"Em"ed              |1 c2 A2 A2 AG          :|2 c2 A2 A2 ef          |]
+[V:T2]    |[E2A,2] [EC] z[E2A,2] [EC] z  |[E2A2] [EB,]C [A2D2] [AF] z   |[B2A,2] [EC] z [AD][BE]GE     | A2 [E2A,2] [E2A,2] AG :| A2 [E2A,2] [E2A,2] GA |]
+[V:T1]    |:"Em"gfga gfef                |gfec "G"d2 cd                 |"A"edcB ABcA                  |"Em"BGEF G2 AG          |
+[V:T2]    |:[B2E2] [Be] z B,DED          |[B2E2] [Be] z [D2G,2] [DB,]G, |[E2A,2] [EC] z[E2A,2] [EC] z  | [BE][BE]GE [B2E2] E z  |
+[V:T1]    |"A"E2 AG A2 cd                | efec "D"D2 cd                |"A"eaab ag"Em"ed              |1"A"c2 A2 A2 ef        :|2"A"c2 A2 A2 AF        |]
+[V:T2]    |[e2A2] [ec] z [e2A2] [ec] z   | [e2A2] [eB]c [A2D2] [AF] z   | [EA,][EA,]CA, [AD][BE]GE     | A2 [E2A,2] [E2A,2] GA :| A2 [E2A,2] [E2A,2] AF |]

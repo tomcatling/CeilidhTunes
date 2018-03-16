@@ -1,20 +1,26 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.7
 X:2
 T:Captain O'Kane
 M:3/4
 L:1/8
 R:waltz
 C:Turlough Carolan
-V:T1 name="Melody"   snm="I"
-V:T2 name="Harmony"  snm="II"
-Q:1/2=60
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 K:EMin
 [V:T1] ED |:"Em"B,2E2F2 |G4FE         |"D"FG AG FE |"Bm"D2E2F2  |
 [V:T2] BA |:G2G2A2      |B4AG         |AB cB AG    |F2G2A2      |
 [V:T1]    |"C"G2B2G2    |BA GF ED     |"Em"B,2E2ED |1"Bm"E4 ED :|2"Bm"E4 ED EF |]
-[V:T2]    |B2d2B2       |dc BA GF     |G2B2A2      |1B4 BA     :|2"Bm"E4 ED BA |]
-[V:T1]    |:"Em"G2B2B2  |B4AG         |"D"F2A2A2   |"Bm"A4dc    |"Am"B2e3e     |"C"e2f2g2 |"Am"B2e2^d2 |"C"e4 "D"ef |
-[V:T2]    |:G2d2d2      |d4cB         |A2d3e       |f4d2        |e2g3f         |g2a2b2    |e2g2f2      |g4 ga       |
-[V:T1]    |"Em"g2f2e2   |"Em7"d2c2B2  |"D"AGF2d2   |"Bm"D2E2F2  |1"C"G2B2G2    |BA GF ED  |"Em"B,2E2EF |"Bm"E4 EF  :|
-[V:T2]    |b2a2g2       |g2e2d2       |AGF2d2      |F2G2A2      |1 B2d2B2      |dc BA GF  |G2B2A2      |B4 BA      :|
+[V:T2]    |B2d2B2       |dc BA GF     |G2B2A2      | B4 BA     :| "Bm"E4 ED BA |]
+[V:T1]    |:"Em"G2B2B2  |B4AG         |"D"F2A2A2   |"Bm"A4dc    |
+[V:T2]    |:G2d2d2      |d4cB         |A2d3e       |f4d2        |
+[V:T1]    | "Am"B2e3e   |"C"e2f2g2    |"Am"B2e2^d2 |"C"e4 "D"ef |
+[V:T2]    | e2g3f       |g2a2b2       |e2g2f2      |g4 ga       |
+[V:T1]    |"Em"g2f2e2   |"Em7"d2c2B2  |"D"AGF2d2   |"Bm"D2E2F2  |
+[V:T2]    |b2a2g2       |g2e2d2       |AGF2d2      |F2G2A2      | 
+[V:T1]    |1 "C"G2B2G2  |BA GF ED     |"Em"B,2E2EF |"Bm"E4 EF  :|
+[V:T2]    | B2d2B2      |dc BA GF     |G2B2A2      |B4 BA      :|
 [V:T1]    |2"Am"G2B2G2  |"Em"BA GF ED |"Am"B,2E2EF |"Em"E4      |]
-[V:T2]    |2 B2d2B2     |dc BA GF     |G2B2A2      |B4          |]
+[V:T2]    | B2d2B2      |dc BA GF     |G2B2A2      |B4          |]

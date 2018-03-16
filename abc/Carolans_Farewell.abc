@@ -1,9 +1,10 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 1
 T: Carolan's Farewell To Music
 R: reel
 M: 4/4
 L: 1/8
-Q:1/2=30
 K: Ador
 E | A2 AB c2 (3cBA | G>A B/2d/2e/2f/2 g>a b/2a/2g/2e/2 |e>d B/d/e/f/ g>e e/d/B   | e>d Bc Ac B/A/G/E/             | 
   |A2 AB c2 c/B/A  |AA (3BAG {A}a>g (3abc'             | e2 eg d2 de             | cB B/A/B/c/ A3                 |

@@ -1,9 +1,10 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
 X: 4
 T: MacArthur Road
 R: reel
 M: 4/4
 L: 1/8
-Q:1/2=80
 K: Emaj
 |:"E"BG G1/2G1/2G Bcef     |"E"g1/2g1/2g ge fece |"F#m"f3 g fece  |"A"gefg fece    |
 |"E"BG G1/2G1/2G Bcef      |"C#m"f(gg)e fece     |"A"f2 ge fece   |1"B" Bcef e3 A :|2"B" Bcef "E"e3 g |]

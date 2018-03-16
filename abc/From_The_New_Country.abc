@@ -1,16 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.6
 X: 1
 T: From The New Country
 R: jig
 M: 6/8
 L: 1/8
-V:T1 name="Melody"   snm="M"
-V:T2 name="Violin \n Accompaniment"  snm="V"
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 K: Edor
-[V:T1] E/2F/2 |:"Em"GEE BEE                |GEE BAG             |"D"FDD ADD               |dcd AGF                |
-[V:T2] z      |: [B2E2] ([BG][B2E2]) ([BG] | [B2E2]) (EG2A)     |[A2D2]([AF][A2D2]) ([AF] | [A2D2]) (F D2 ^D)     |
-[V:T1]        |"Em"GEE BEE                 |GEE (B2c)           |"Bm"dcd "Bm7"AGF         |1"Em"GEE E2 E/2F/2    :|2"Em"GEE E2 B         |]
-[V:T2]        |e2 ([BG][B2E2]) ([BG]       | [B2E2]) (E G,2 A,) |B,2 (FD2) (F             |1 [E3G,3]) [e2B2E2] z :|2 [E3G,3]) [e2B2E2] z |]
-[V:T1]        |:"Em"Bc^d (e2f)             |(e2f) "Bm7"e=dB     |"Em"Bc^d (e2f)           |"G"edB "D"=d3          |
-[V:T2]        |:(EGF) [B2E2] (G, &\ B3     |A,2) (A,^A,2B,)     |(EGF) [B2E2] (D &\B3     |B,G,A,) [A3D3]         |
-[V:T1]        |"Em"Bc^d (e2f)              |(e2f) edB           |"Bm7"dcd AGF             |1"Em"GEE E2 B         :|2 "Em"GEE E2          |]
-[V:T2]        |(EGF) [B2E2] (G, &\B3       |A,2) (A,^A,2B,)     |B,2 (FD2) (F             |1[E3G,3])[e2B2E2] z   :|2 [E3G,3])[e2B2E2]    |]
+[V:T1] E/2F/2 |:"Em"GEE BEE                |GEE BAG             |"D"FDD ADD               |dcd AGF               |
+[V:T2] z      |: [B2E2] ([BG][B2E2]) ([BG] | [B2E2]) (EG2A)     |[A2D2]([AF][A2D2]) ([AF] | [A2D2]) (F D2 ^D)    |
+[V:T1]        |"Em"GEE BEE                 |GEE (B2c)           |"Bm"dcd "Bm7"AGF         |1"Em"GEE E2 E/2F/2   :|2"Em"GEE E2 B        |]
+[V:T2]        |e2 ([BG][B2E2]) ([BG]       | [B2E2]) (E G,2 A,) |B,2 (FD2) (F             | [E3G,3]) [e2B2E2] z :| [E3G,3]) [e2B2E2] z |]
+[V:T1]        |:"Em"Bc^d (e2f)             |(e2f) "Bm7"e=dB     |"Em"Bc^d (e2f)           |"G"edB "D"=d3         |
+[V:T2]        |:(EGF) [B2E2] (G, &\ B3     |A,2) (A,^A,2B,)     |(EGF) [B2E2] (D &\B3     |B,G,A,) [A3D3]        |
+[V:T1]        |"Em"Bc^d (e2f)              |(e2f) edB           |"Bm7"dcd AGF             |1"Em"GEE E2 B        :|2 "Em"GEE E2         |]
+[V:T2]        |(EGF) [B2E2] (G, &\B3       |A,2) (A,^A,2B,)     |B,2 (FD2) (F             | [E3G,3])[e2B2E2] z  :| [E3G,3])[e2B2E2]    |]

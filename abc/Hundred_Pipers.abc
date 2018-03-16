@@ -1,0 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
+X: 1
+T: The Hundred Pipers
+R: jig
+M: 6/8
+L: 1/8
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
+K: Amaj
+[V:T1]A/B/ |:"A"c2E EFE|"D"F2A A2f      |"A"e2c cBA      |"E7"BcB BAB |
+[V:T2] z   |: z6       | z6             | z6             | z6         |
+[V:T1]     |"A"c2E EFE |"D"F2A "F#m"A2f |"C#m"e2c "E7"BcB|1 "A"A3 A2B:|2 "A"A3 c2d|]
+[V:T2]     | z6        | z6             | z6             | z6        :| z6        |]
+[V:T1]     |:"A"e2e ece|"D"f2a agf      |"A"e2c cBA      |"E7"BcB Bcd |
+[V:T2]     |: z6       | z6             | z6             | z6         |
+[V:T1]     |"A"e2e ece |"A7"f2a "F#m"agf|"C#m"e2c "E7"BcB|1"A"A3 A2B :|2 "A"A3 A2 |]
+[V:T2]     | z6        | z6             | z6             | z6        :| z5        |]

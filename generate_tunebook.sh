@@ -61,6 +61,14 @@ keys+=( "Connaught_Mans_Rambles" )
 sets["The_Kesh"]="Irish_Jigs"; 
 keys+=( "The_Kesh" )
 
+# hundred pipers
+sets["Athol_Highlanders"]="Hundred_Pipers"; 
+keys+=( "Athol_Highlanders" )
+sets["Hundred_Pipers"]="Hundred_Pipers"; 
+keys+=( "Hundred_Pipers" )
+sets["Cock_OThe_North"]="Hundred_Pipers"; 
+keys+=( "Cock_OThe_North" )
+
 # slip jigs
 sets["The_Butterfly"]="Slip_Jigs"; 
 keys+=( "The_Butterfly" )
@@ -146,10 +154,10 @@ keys+=( "Forest_Flowers" )
 # Airs
 sets["Tune_For_Dad"]="Airs"; 
 keys+=( "Tune_For_Dad" )
-sets["Si_Beag_Si_Mor"]="Airs"; 
-keys+=( "Si_Beag_Si_Mor" )
 sets["Carolans_Farewell"]="Airs"; 
 keys+=( "Carolans_Farewell" )
+sets["Si_Beag_Si_Mor"]="Airs"; 
+keys+=( "Si_Beag_Si_Mor" )
 
 cd ./abc
 for set in "${sets[@]}"
@@ -172,7 +180,6 @@ do
 	else
 	   echo "Couldn't find $tune.abc - made an empty file."
 	   touch "$tune.abc"
-	   echo "|CDEFGABc|"
 	   abc2abc "$tune.abc" -e -t "$transpose" >> "${sets[$tune]}.tex" # add each tune to its set surrounded by the LaTeX strings
 	fi
 		

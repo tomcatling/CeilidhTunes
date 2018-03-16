@@ -1,15 +1,27 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
 X: 3
 T: Carolan's Welcome
 R: waltz
 M: 3/4
 L: 1/8
-Q:1/2=80
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 K: Bmin
-[V:1]dc |:B2 de f2 |B2 de f2 |ef ed cB |(3ABc A2 F2 |d3c B2   |e3d c2   |df F2 A2 |B4 dc     |
-[V:2]dc |:B3c d2   |d3c B2   |c3d cB   |A4 F2       |d3A GF   |G3A Bc   |d3d cd   |B4 dc     |
-[V:1]   |B2 de f2  |B2 de f2 |ef ed cB |(3ABc A2 F2 |a3g f2   |b3a fe   |df ed cd |[1 B4 dc :|[2 B4 B2 |]
-[V:2]   |B3c d2    |d3c B2   |c3d cB   |A4 F2       |d6       |e6       |d4 cd    |[1B6     :|[2B6     |]
-[V:1]   |:F2 Bc d2 |F2 Bc d2 |dc BA Bc |d2 F2 F2    |g2 bg fe |f2 af ed |e2 f2 a2 |b6        |
-[V:2]   |:B6       |B6       |B6       |A6          |e6       |d6       |c6       |dc BA FA  |
-[V:1]   |ba fa b2  |afef a2  |fe de fd |e2 c2 (3ABc |d3c B2   |e3d c2   |df F2 A2 |[1 B4 B2 :|[2 B6    |]
-[V:2]   |g6        |f6       |d6       |cd ef ge    |fe dc df |GF GA Bc |d4 cd    |[1B6     :|[2 B6    |]
+[V:T1] dc |: "Bm"B2 de f2 | B2 de f2     | "A"ef ed cB   | "F#m"(3ABc A2 F2 |
+[V:T2] dc |: B3c d2       | d3c B2       | c3d cB        | A4 F2            |
+[V:T1]    | "Bm"d3c B2    | "Em"e3d c2   | "F#m"df F2 A2 | "Bm"B4 dc        |
+[V:T2]    | d3A GF        | G3A Bc       | d3d cd        | B4 dc            |
+[V:T1]    | "Bm"B2 de f2  | B2 de f2     | "A"ef ed cB   | "F#m"(3ABc A2 F2 |
+[V:T2]    | B3c d2        | d3c B2       | c3d cB        | A4 F2            |
+[V:T1]    | "D"a3g f2     | "Em"b3a fe   | "F#m"df ed cd |1 "Bm"B4 dc      :|2 "Bm"B4 B2 |]
+[V:T2]    | d6            | e6           | d4 cd         | B6              :| B6         |]
+[V:T1]    |: "Bm"F2 Bc d2 | "Bm"F2 Bc d2 | "G"dc BA Bc   | "D"d2 F2 F2      |
+[V:T2]    |: B6           | B6           | B6            | A6               |
+[V:T1]    | "Em"g2 bg fe  | "D"f2 af ed  | "Em"e2 f2 a2  | "Bm"b6           |
+[V:T2]    | e6            | d6           | c6            | dc BA FA         |
+[V:T1]    | "G"ba fa b2   | "D"afef a2   | fe de fd      | "A"e2 c2 (3ABc   |
+[V:T2]    | g6            | f6           | d6            | cd ef ge         |
+[V:T1]    | "Bm"d3c B2    | "Em"e3d c2   | "F#m"df F2 A2 |1 "Bm"B4 B2      :|2 "Bm"B6    |]
+[V:T2]    | fe dc df      | GF GA Bc     | d4 cd         | B6              :| B6         |]

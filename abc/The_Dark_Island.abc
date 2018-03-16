@@ -1,17 +1,27 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
 X: 2
 T: The Dark Island
 R: waltz
 M: 3/4
 L: 1/8
-V:T1 name="Melody"   snm="I"
-V:T2 name="Harmony"  snm="II"
-Q:1/2=60
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 K: Gmaj
-[V:T1]E2 | "Am" A3 E A2 | "Em" G3 A G2 | "C" E3 D C2 | "G" D4 GA | B3 A G2  | B d3 G2     | B3 A G2  | "Am" A4 E2 |
-[V:T2]A,2| C3 A, C2     | B,3 C B,2    | CD E2 F2    | G4 D2     | G3 F E2  | D G3 A2     | G3 F D2  | C4 A,B,    |
-[V:T1]   | "Am" A3 E A2 | "Em" G3 A G2 | "C" E3 D C2 | "G" D4 GA | B3 D dB  | "D" A3 D BA | "C" G6   | "G"G4 BC   |
-[V:T2]   | C3 A, C2     | B,2 C2 D2    | C2 B,2 A,2  | B,3 D EF  | G3 B, CD | E3 G, A,B,  | CD EF GA | Bc d2 EF   |
-[V:T1]   | "G" d3 B d2  | B3 A G2      | "C" E3 C E2 | "G" D4 GA |B3 A G2   | B d3 GA     | B3 A G2  | "Am" A4 EG |
-[V:T2]   | G3 A D2      | G2 D2 D2     | G2 G2 E2    | G4 DF     | G3 A D2  | G2 D2 D2    | G2 G2 D2 | C4 FA      |
-[V:T1]   |"Am" A4 A2    | "Em" G4 G2   |"C" E3 D C2  | "G" D4 GA |B3 D dB   | "D" A3 D BA | "C" G6   | "G"G6      |]
-[V:T2]   | G3 F E2      | E4 D2        | C2 B,2 A,2  | B,4 B,C   | D3 G F2  | E4 D2       | E2 D2 C2 | B,6        |]
+[V:T1] E2 | "Am" A3 E A2 | "Em" G3 A G2 | "C" E3 D C2 | "G" D4 GA  |
+[V:T2] A,2| C3 A, C2     | B,3 C B,2    | CD E2 F2    | G4 D2      | 
+[V:T1]    | B3 A G2      | B d3 G2      | B3 A G2     | "Am" A4 E2 |
+[V:T2]    | G3 F E2      | D G3 A2      | G3 F D2     | C4 A,B,    |
+[V:T1]    | "Am" A3 E A2 | "Em" G3 A G2 | "C" E3 D C2 | "G" D4 GA  | 
+[V:T2]    | C3 A, C2     | B,2 C2 D2    | C2 B,2 A,2  | B,3 D EF   | 
+[V:T1]    | B3 D dB      | "D" A3 D BA  | "C" G6      | "G"G4 BC   |
+[V:T2]    | G3 B, CD     | E3 G, A,B,   | CD EF GA    | Bc d2 EF   |
+[V:T1]    | "G" d3 B d2  | B3 A G2      | "C" E3 C E2 | "G" D4 GA  |
+[V:T2]    | G3 A D2      | G2 D2 D2     | G2 G2 E2    | G4 DF      | 
+[V:T1]    | B3 A G2      | B d3 GA      | B3 A G2     | "Am" A4 EG |
+[V:T2]    | G3 A D2      | G2 D2 D2     | G2 G2 D2    | C4 FA      |
+[V:T1]    |"Am" A4 A2    | "Em" G4 G2   |"C" E3 D C2  | "G" D4 GA  |
+[V:T2]    | G3 F E2      | E4 D2        | C2 B,2 A,2  | B,4 B,C    | 
+[V:T1]    | B3 D dB      | "D" A3 D BA  | "C" G6      | "G"G6      |]
+[V:T2]    | D3 G F2      | E4 D2        | E2 D2 C2    | B,6        |]

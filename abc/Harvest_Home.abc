@@ -1,16 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
 X: 3
 T: The Harvest Home
 R: hornpipe
-V:T1 name="Melody"   snm="I"
-V:T2 name="Harmony"  snm="II"
+V:T1 name="I"   snm="I"
+V:T2 name="II"  snm="II"
 M: 4/4
 L: 1/8
 K: Dmaj
 [V:T1]"A"AF |:"D"DAFA DAFA            |"D"defe dcBA             |"A"eAfA gAfA              |"Em"(3efe (3dcB "A7"(3ABA (3GFE          |
 [V:T2]AF    |:D2 [AF] z F2 [AF] z     | A,2 [A,F] z B,2 [B,D] z | A,2 [A2D2] [A2E2] [A2D2] | [EA,][EA,][EB,][EB,] [E=C][EC][E^C][EC] |
-[V:T1]      |"D"DAFA DAFA             |"D"defe dcBA             |"A7"eAfA gfec             |1"D"d2 f2 d2 "A"AF                      :|2"D"d2 f2 d2 cd       |]
-[V:T2]      |D2 [AF] z C2 [AF] z      | B,2 [AF] z A,2 [AF] z   | A,2 dA c2 A2             |1 D2 [d2F2] [d2F2] AF                   :|2 D2 [d2F2] [d2F2] cd |]
+[V:T1]      |"D"DAFA DAFA             |"D"defe dcBA             |"A7"eAfA gfec             |1"D"d2 f2 d2 "A"AF                      :|2"D"d2 f2 d2 cd      |]
+[V:T2]      |D2 [AF] z C2 [AF] z      | B,2 [AF] z A,2 [AF] z   | A,2 dA c2 A2             | D2 [d2F2] [d2F2] AF                    :| D2 [d2F2] [d2F2] cd |]
 [V:T1]      |:"A"eA (3AAA "D"fA (3AAA |"A7"gAfA "D"eA (3AAA     |"A"eAfA gAfA              |"Em"(3efe (3dcB "A7"(3ABA (3GFE          |
 [V:T2]      |:cA (3AAA dA (3AAA       |eA (3AAA dA (3AAA        |[ec]A[ed]A eA[ed]A        | [e2c2] [E2A,2] [E2A,2] z2               |
-[V:T1]      |"D"DAFA DAFA             |"D"defe dcBA             |"A7"eAfA gfec             |1"D"d2 f2 d2 cd                         :|2"D"d2 f2 d4          |]
-[V:T2]      |D2 [AF] z F2 [AF] z      | A,2 [FA,] z A,2 [DB,] z | A,2 dA C2 A2             |1 D2 [d2F2] [d2F2] cd                   :|2 D2 [d2F2] [d4F4]    |]
+[V:T1]      |"D"DAFA DAFA             |"D"defe dcBA             |"A7"eAfA gfec             |1"D"d2 f2 d2 cd                         :|2"D"d2 f2 d4         |]
+[V:T2]      |D2 [AF] z F2 [AF] z      | A,2 [FA,] z A,2 [DB,] z | A,2 dA C2 A2             | D2 [d2F2] [d2F2] cd                    :| D2 [d2F2] [d4F4]    |]
