@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:20
+T:Miss McLeod's
+R:reel
+M:4/4
+L:1/8
+K:Bmaj
+dc |:"B"B2 b2 "E"gfgb|"B"d2 (dc) d2 dc |"E"B2 b2 "E"gfgb |"F#"c2 (cB) cedc |
+|"B"B2 b2 "E"gfgb |"B"d2 (dc) d2 (df)|"E"g2 ga "F#7"gfga|"B"(bgfd) (fd) "F#7"cedc:|
+|:"B"Bcde fBdB |"B"d2 (dc) d2 (dc)|"B"Bcde fBdB |"F#"c2 (cB) cedc |
+|"B"Bcde fBdB |d2 (dc) d2 (df) |"E"g2 ga "F#7"gfga|1"B"bgfd "F#7"cedc :|2"B"b4 b2 |]

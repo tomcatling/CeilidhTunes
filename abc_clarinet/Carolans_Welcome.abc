@@ -1,0 +1,27 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
+X:3
+T:Carolan's Welcome
+R:waltz
+M:3/4
+L:1/8
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+K:C#min
+[V:T1] ed |: "C#m"c2 ef g2 | c2 ef g2 | "B"fg fe dc | "G#m"(3Bcd B2 G2 |
+[V:T2] ed |: c3d e2 | e3d c2 | d3e dc | B4 G2 |
+[V:T1] | "C#m"e3d c2 | "F#m"f3e d2 | "G#m"eg G2 B2 | "C#m"c4 ed |
+[V:T2] | e3B AG | A3B cd | e3e de | c4 ed |
+[V:T1] | "C#m"c2 ef g2 | c2 ef g2 | "B"fg fe dc | "G#m"(3Bcd B2 G2 |
+[V:T2] | c3d e2 | e3d c2 | d3e dc | B4 G2 |
+[V:T1] | "E"b3a g2 | "F#m"c'3b gf | "G#m"eg fe de |1 "C#m"c4 ed :|2 "C#m"c4 c2 |]
+[V:T2] | e6 | f6 | e4 de | c6 :| c6 |]
+[V:T1] |: "C#m"G2 cd e2 | "C#m"G2 cd e2 | "A"ed cB cd | "E"e2 G2 G2 |
+[V:T2] |: c6 | c6 | c6 | B6 |
+[V:T1] | "F#m"a2 c'a gf | "E"g2 bg fe | "F#m"f2 g2 b2 | "C#m"c'6 |
+[V:T2] | f6 | e6 | d6 | ed cB GB |
+[V:T1] | "A"c'b gb c'2 | "E"bgfg b2 | gf ef ge | "B"f2 d2 (3Bcd |
+[V:T2] | a6 | g6 | e6 | de fg af |
+[V:T1] | "C#m"e3d c2 | "F#m"f3e d2 | "G#m"eg G2 B2 |1 "C#m"c4 c2 :|2 "C#m"c6 |]
+[V:T2] | gf ed eg | AG AB cd | e4 de | c6 :| c6 |]

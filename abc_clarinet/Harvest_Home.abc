@@ -1,0 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
+X:3
+T:The Harvest Home
+R:hornpipe
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+M:4/4
+L:1/8
+K:Emaj
+[V:T1]"B"BG |:"E"EBGB EBGB |"E"efgf edcB |"B"fBgB aBgB |"F#m"(3fgf (3edc "B7"(3BcB (3AGF |
+[V:T2]BG |:E2 [BG] z G2 [BG] z | B,2 [B,G] z C2 [CE] z | B,2 [B2E2] [B2F2] [B2E2] | [FB,][FB,][FC][FC] [F=D][FD][F^D][FD] |
+[V:T1] |"E"EBGB EBGB |"E"efgf edcB |"B7"fBgB agfd |1"E"e2 g2 e2 "B"BG :|2"E"e2 g2 e2 de |]
+[V:T2] |E2 [BG] z D2 [BG] z | C2 [BG] z B,2 [BG] z | B,2 eB d2 B2 | E2 [e2G2] [e2G2] BG :| E2 [e2G2] [e2G2] de |]
+[V:T1] |:"B"fB (3BBB "E"gB (3BBB |"B7"aBgB "E"fB (3BBB |"B"fBgB aBgB |"F#m"(3fgf (3edc "B7"(3BcB (3AGF |
+[V:T2] |:dB (3BBB eB (3BBB |fB (3BBB eB (3BBB |[fd]B[fe]B fB[fe]B | [f2d2] [F2B,2] [F2B,2] z2 |
+[V:T1] |"E"EBGB EBGB |"E"efgf edcB |"B7"fBgB agfd |1"E"e2 g2 e2 de :|2"E"e2 g2 e4 |]
+[V:T2] |E2 [BG] z G2 [BG] z | B,2 [GB,] z B,2 [EC] z | B,2 eB D2 B2 | E2 [e2G2] [e2G2] de :| E2 [e2G2] [e4G4] |]

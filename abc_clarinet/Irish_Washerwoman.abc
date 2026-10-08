@@ -1,0 +1,18 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:3
+T:The Irish Washerwoman
+R:jig
+M:6/8
+L:1/8
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+K:Amaj
+[V:T1]e/2d/2 |:"A"cAA EAA |cAc edc |"Bm"dBB FBB |dBd "E"fed |
+[V:T2]z |: [E2A,2] (([AC][A2C2])[AC]) | [E2A,2] [EC] (([EC]B,)A,) | [F2B,2] (([FD] [F2D2]) [FD]) | [F2B,2] (([FD] [E2D2]) [ED]) |
+[V:T1] |"A"cAA EAA |cAc edc |"Bm"dcd "E"Bed |1"A"cAA Aed :|2"A"cAA Aab |]
+[V:T2] |[E2A,2] (([AC][A2C2])[AC]) | [E2A,2] ([cE] [cE]BA) | [B2F2] (([BF][B2E2]) [BG]) | ([E2A,2] [AC]) [A2C2] z :| ([E2A,2] [AC]) [A2C2] z |]
+[V:T1] |:"A"aea aea | aea c'ba |"E"geg geg |geg bag |
+[V:T2] |: [c2A2] ([cA] [c2G2]) ([cG] | [c2F2]) ([cE] [cE]BA) | [B2E2] ([BE] [B2F2]) ([BF] | [B2=G2]) ([BG] [B2^G2]) z |
+[V:T1] |"D"faa "A"eaa |"D"daa "A"caa |"Bm"dcd "E"Bed |1"A"cAA Aeg :|2"A"cAA A3 |]
+[V:T2] | [F2D2] z [E2C2] z | [E2B,2] z [E2A,2] z | [F2B,2] (([FD] [E2D2]) [GD]) | ([E2A,2] [AC]) [A2C2] z :| ([E2A,2] [AC]) [A2C2] z |]

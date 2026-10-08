@@ -1,0 +1,13 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Indian Point
+R:jig
+M:6/8
+L:1/8
+Q:1/2=80
+K:F#min
+|CFG A2B |cBA GFE |DFG A2B |cBA cBA |
+|GFE B,2E |GFG BAG |1FGA cBA |G3 GFE :|2AGF GFE |F3 F2 |]
+B |:cfg agf |dfg agf |ega bag |agf gfe |
+|cfg agf |dfa b2b |c'ba gag |f3 f2 :|

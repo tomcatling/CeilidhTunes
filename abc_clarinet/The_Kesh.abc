@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:12
+T:The Kesh
+R:jig
+M:6/8
+L:1/8
+K:Amaj
+|:"A"~A3 ABc |"E"~B3 Bce |"D"fee aee |"E"fec ecB |
+|"A"~A3 ABc |"E"~B3 Bce |"D"fee "A"aec |1"E"BAG "A"A2E :|2"E"BAG "A"A2B |]
+|:"A"~c3 ece |"D"faf ecA |"A"~c3 ecA |"Bm"BcB "E"BAB |
+|"A"cBc ece |"D"faf ece |"D"~a3 bab |"E"c'ag "A"a3 :|

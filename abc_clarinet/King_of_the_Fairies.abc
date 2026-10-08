@@ -1,0 +1,22 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:King Of The Fairies
+R:hornpipe
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+M:4/4
+L:1/8
+K:Amaj
+[V:T1] C2 |:"F#m"FEFG AGAB |c2c2 A3B |c2F2 FGAF |"E"GAGF E3C |
+[V:T2] C2 |:[F2c2] [Ac] z [F2c2] [cA]G |[F2c2] [Ac] z FCFG |[F2c2] [Ac] z [F2c2] [Ac] z |[B2E2] [BG] z [BG]B,CE |
+[V:T1] |"F#m"FEFG AGAB |cBAc "E"e3d |"F#m"c2F2 "C#m"AGFE |1"F#m"F6 C2 :|2"F#m"F6 z e |]
+[V:T2] |[F2c2] [Ac] z [F2c2] [cA]G |[F2c2] [Ac] z [B2E2] [BG] z |[c2F2] [fc] z [c2F2] ag | f2 [c2F2] [c2F2] C2 :| f2 [c2F2] [c2F2] z e |]
+[V:T1] |:"F#m"f2f2 cefg |abag f3g |"F#m"f2c2 cBc^d |"C#m"efed c^d (3edc |
+[V:T2] |:[F2c2] [Ac] z [F2c2] [cA]G |[c2F2] [cA] z DB,DE |[c2F2] [fc] z [c2F2] [fc] z |c2 B2 [cA][cA][cG][cG] |
+[V:T1] |"F#m"f2c2 cefg |abag "D"f3g |"F#m"ag (3fga "E"gf (3efg |"F#m"f2 fe f3 g |
+[V:T2] |[F2c2] [Ac] z [F2c2] [cA]G |[c2F2] [cA] z DB,DE |[c2F2] [fc] z [B2E2] [gB] z |f2 [c2F2] [c2F2] z2 |
+[V:T1] |a2 z f "E"g2 z e |"F#m"fec^d e3 f |"E"ecBG "F#m"ABc^d |"C#m"ecBG "F#m"AGFE |
+[V:T2] |[f2c2F2] z2 [g2B2E2] z2 |[c2F2] [cA] z C2 EC | [B2E2] [BG] z F2 AF | c2 G2 FB,CE |
+[V:T1] |C2 F2 FGAB |c2 f2 fefg |f2 c2 "C#m"cBAG |1"F#m"F6 z e :|2"F#m"F6 |]
+[V:T2] |[c2F2] [cA] z [c2F2] [cA]G |[c2F2] [cA] z [c2F2] AB | [c2F2] [cf] z C2 FE | F2 [c2F2] [c2F2] z e :| F2 [c2F2] [c2F2] |]

@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:3
+T:The Ceilidh Band Reel
+R:reel
+M:4/4
+L:1/8
+K:Emaj
+b2 |: "E"E2 E2 GFEG | "E"B2 B2 cBGB | "E"e2 e2 gfef | "B"g2 f2 f2 g2 |
+|"E"E2 E2 GFEG | "E"B2 B2 cBGB | "E"e2 g2 "B7"fgab |1 "E"g2 e2 (e2 b2) :|2 "E"g2 e2 e3 f |]
+|: "E"g2 g2 efge | "B"f2 B2 B3 ^B | "A"c2 c2 ABcA | "E"B2 E2 E3 G |
+|"F#m"A2 A2 FGAF | "E"G2 B2 e2 B2 | "A"cBAG "B"FGAB |1 "E"G2 E2 E2 F2 :|2 "E"G2 E2 E4 |]

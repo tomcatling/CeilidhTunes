@@ -1,0 +1,16 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:5
+T:Flatbush
+R:waltz
+M:3/4
+L:1/8
+K:F#min
+| "F#m"c3 fcB | A2 F2 F2 | c3 fcA | "Bm"B3 d cB |
+|"F#m"FG AB cA/2c/2 | "Bm"B/2c/2F B2 B2 | "F#m"A3 B"G"=GA | "F#m"F FAcfA |
+|"F#m"[c3 F3] [fc][cA][BG] | [A2F2] [F2C2] [F2C2] | [c3A3] [fc][cA][AF] | "Bm"B3 e (3dcB |
+| "A"AB cd ec | "Bm"B/2c/2F B2 B2 | "F#m"A3 B"G"=GA | "F#m"F6 |
+| "F#m"[a4c4] [gB][fA] | "C#"[gB] CEGce | "D"[f2A2] [e3G3][dF] | "A"[c6E6] |
+| "Bm"[d2F2] [c2E2] [B2D2] | "F#m"[c2E2] [f2A2] [g2B2] | [a3c3] [gB][ac][bd] | "C#7"[g6B6] |
+| "F#m"[a4c4] [gB][fA] | "C#"[gB] CEGce | "D"[f2A2] [e3G3][dF] | "A"[c6E6] |
+| "Bm"[d2F2] [c2E2] [B2D2] | "F#m"[c2E2] [f2A2] [g2B2] | [a3c3] [bB]"G"[gG][aA] | "F#m"[f6F6] |]

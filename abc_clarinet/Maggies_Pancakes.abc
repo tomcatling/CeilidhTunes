@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Maggie's Pancakes
+R:reel
+M:4/4
+L:1/8
+K:Emaj
+|:"C#m"gcc2 gagf |"C#m"ec c/2c/2c Acec |"B"dBB "E"eBB "B"fd |"B"Bgec fdBd |
+|"C#m"ec c/2c/2c gagf |"A"ec c/2c/2c Acec |"B"dBcd Bcd(f |"B"f)gfd cdef :|
+|:"A"g2ec Acec |"B"dbfd "C#m"ec c/2c/2c |"A"g2ec Acec |"B"dBfd cdef |
+|"E"ge e/2e/2e gagf |"A"ec c/2c/2c Acec |"B"dB"E"eB "B"fdB(b |"B"b)gfd cdef :|

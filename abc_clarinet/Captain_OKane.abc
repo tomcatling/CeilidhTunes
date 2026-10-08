@@ -1,0 +1,26 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.7
+X:2
+T:Captain O'Kane
+M:3/4
+L:1/8
+R:waltz
+C:Turlough Carolan
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+K:F#min
+[V:T1] FE |:"F#m"C2F2G2 |A4GF |"E"GA BA GF |"C#m"E2F2G2 |
+[V:T2] cB |:A2A2B2 |c4BA |Bc dc BA |G2A2B2 |
+[V:T1] |"D"A2c2A2 |cB AG FE |"F#m"C2F2FE |1"C#m"F4 FE :|2"C#m"F4 FE FG |]
+[V:T2] |c2e2c2 |ed cB AG |A2c2B2 | c4 cB :| "C#m"F4 FE cB |]
+[V:T1] |:"F#m"A2c2c2 |c4BA |"E"G2B2B2 |"C#m"B4ed |
+[V:T2] |:A2e2e2 |e4dc |B2e3f |g4e2 |
+[V:T1] | "Bm"c2f3f |"D"f2g2a2 |"Bm"c2f2^e2 |"D"f4 "E"fg |
+[V:T2] | f2a3g |a2b2c'2 |f2a2g2 |a4 ab |
+[V:T1] |"F#m"a2g2f2 |"F#m7"e2d2c2 |"E"BAG2e2 |"C#m"E2F2G2 |
+[V:T2] |c'2b2a2 |a2f2e2 |BAG2e2 |G2A2B2 | 
+[V:T1] |1 "D"A2c2A2 |cB AG FE |"F#m"C2F2FG |"C#m"F4 FG :|
+[V:T2] | c2e2c2 |ed cB AG |A2c2B2 |c4 cB :|
+[V:T1] |2"Bm"A2c2A2 |"F#m"cB AG FE |"Bm"C2F2FG |"F#m"F4 |]
+[V:T2] | c2e2c2 |ed cB AG |A2c2B2 |c4 |]

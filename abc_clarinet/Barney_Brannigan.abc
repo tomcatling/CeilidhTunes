@@ -1,0 +1,11 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Barney Brannigan
+R:slip jig
+M:9/8
+L:1/8
+K:Emaj
+|:"E"G2B BcB BcB |"E"G2B BcB "A"cde |"E"G2B BcB BcB |"A"cAc .f2e "B"dcB :|
+|:"E".g2b g2b gfe |"E".g2b g2b "A"agf |"E".g2b g2b gfe |"A"a2g f2e "B"dcB :|
+|:"E".g3 .b3 e2g |"A"a2g f2e "B"dcB |"E"g2b "B"f2g "C#m"e2c |"B"B2c B2A "E"GFE :|

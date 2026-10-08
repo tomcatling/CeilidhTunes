@@ -1,0 +1,18 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:3
+T:Sí Beag Sí Mór
+R:waltz
+M:3/4
+L:1/8
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+K:Emaj
+[V:T1]ef |: g3f e2 | e2 ef e2 |c4 B2 | G4 B2 | cB cd e2 | f4 ef | g2 g2 f2 |e4 g2 |
+[V:T2]GA |: B4A2 |G3A BG |A4AG |E2B,2E2 |A4c2 |B2c2d2 |e2B3A |G2E2G2 |
+[V:T1] | c4 f2 | B4 e2 | G4 F2 | E4 f2 | c4 f2 | B4 ed | e6 | e4 ef :|
+[V:T2] |A2F4 |G2E4 |B,4^B,2 |C4G2 |A2G2F2 |B2B,4 |E6- |-E4 B2 :|
+[V:T1] |: g2 gf e2 | fe fg b2 | c'4 b2 | g4 fe | f4 b2 | g4 f2 | e4 c2 | B4 cB |
+[V:T2] |:e2B4 |B2e2d2 |e2 AB cd |e2B4 |Bcd2Bc |d2G2B2 |c2E2AG |A2G2F2 |
+[V:T1] |G4 F2 | E4 g2 |c4 f2 | B4 b2 | c'b ag fe | f4 ed | e6 |1 e4 ef :|2 e6 |]
+[V:T2] |B,4^B,2 |C4G2 |A2F4 |G2E4 |ABc2A2 |B2B,4 |E6- | -E6 :| E6 |]

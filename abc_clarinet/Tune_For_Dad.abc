@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Tune For Dad
+R:reel
+M:4/4
+L:1/8
+K:F#min
+c/2e/2 |: agec "D"f4 | fe c/2B/2A "E"B3z | "A"cc/2B/2 A>B ce3- | e2 f/2e/2B/2c/2 ez B/2c/2e |
+|"A"ag a/2b/2a/2g/2 "D"f4 | fe c/2B/2A "E"B zB>c | BA B/2c/2E "F#m"F4- |1 F4-F z2 c/2e/2 :|2 F4-F z2 B/2c/2 |]
+|:"D"dcAF "Bm"B4- | B4- "E"B z2 B/2c/2 | "D"d>c B<A "A"B/2c/2 e3- | e2 f/2e/2B/2c/2 e2 z B/2c/2 |
+|"D"dcAF "Bm"B4- | B2 B/2A/2B/2c/2 "E"B z B>c | BA B/2c/2E "F#m"F4- |1 F4- F z2 B/2c/2 :|2 F4- F z4 |]

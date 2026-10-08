@@ -1,0 +1,16 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:The Lark In The Morning
+R:jig
+M:6/8
+L:1/8
+K:Emaj
+|:"E"BGB BGB |"A"cAc cec |"E"BGB Bef |"C#m"gfe "A"cec |
+|"E"BGB BGB |"A"cAc cec |"E"efg "B"bgf |"C#m"gec cBc :|
+|:"E"efg bgb | "A"c'bc' "E"bgf |"E"efg "B"bgf |"C#m"gec "A"cBc |
+|"E"efg bgb |"A"c'bc' "E"b2 g |"F#m"aga "E"gag |"C#m"fec cBc :|
+|:"E"e2g gfg |"E"gfg gfg |"E"efg gfg |"C#m"fec "A"cBc |
+|"E"e2g gfg |"E"gfg efg |"A"aga "E"gag |"C#m"fec cBc :|
+|:"E"Bee gee |"E"fee gfc |"E"Bee gee |"C#m"fec "A"cBc |
+|"E"Bee gee |"B"fef "E"gfg | "A"aga "E"gag |1"C#m"fec cBc :|2"C#m" fec c z2 |]

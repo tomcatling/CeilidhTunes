@@ -1,0 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.65
+X:1
+T:The Red Haired Boy
+R:reel
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+M:4/4
+L:1/8
+K:Bmix
+[V:T1] BA |:"B"F2 B2 BcdE |fgfd "E"e2 de |"B"f2 B2 BcdB |"F#m"cABG A2 BA |
+[V:T2] BA |:[F2B,2] [FD] z[F2B,2] [FD] z |[F2B2] [FC]D [B2E2] [BG] z |[F2B,2] [FD] z [F2B,2] [FD] z | [cF][cF]AF [c2F2] F z |
+[V:T1] |"B"F2 BA B2 de |fgfd "E"e2 de |"B"fbbc' ba"F#m"fe |1 d2 B2 B2 BA :|2 d2 B2 B2 fg |]
+[V:T2] |[F2B,2] [FD] z[F2B,2] [FD] z |[F2B2] [FC]D [B2E2] [BG] z |[c2B,2] [FD] z [BE][cF]AF | B2 [F2B,2] [F2B,2] BA :| B2 [F2B,2] [F2B,2] AB |]
+[V:T1] |:"F#m"agab agfg |agfd "A"e2 de |"B"fedc BcdB |"F#m"cAFG A2 BA |
+[V:T2] |:[c2F2] [cf] z CEFE |[c2F2] [cf] z [E2A,2] [EC]A, |[F2B,2] [FD] z[F2B,2] [FD] z | [cF][cF]AF [c2F2] F z |
+[V:T1] |"B"F2 BA B2 de | fgfd "E"E2 de |"B"fbbc' ba"F#m"fe |1"B"d2 B2 B2 fg :|2"B"d2 B2 B2 BG |]
+[V:T2] |[f2B2] [fd] z [f2B2] [fd] z | [f2B2] [fc]d [B2E2] [BG] z | [FB,][FB,]DB, [BE][cF]AF | B2 [F2B,2] [F2B,2] AB :| B2 [F2B,2] [F2B,2] BG |]

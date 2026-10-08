@@ -1,0 +1,20 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:12
+T:Cock O' The North
+R:jig
+M:6/8
+L:1/8
+K:Bmix
+f |: "B"dBd "F#"c2B | "B"Bdf "E"g2f | "B"dBd dcB | "A"c3 c2 f |
+|"B"dBd "F#"c2B | "B"Bdf "E"g2f | "B"dBd "A"c2A |1 "B"B3 B2 f :|2 "B"B3 B2 a|]
+| "B/D#"b2f "E"g2f | "B/D#"b2f "E"g2f | "B"dBd dcB | "A"c3 c2 a |
+| "B/D#"b2f "E"g2f | "B/D#"b2f "E"g2f | "B"dBd "A"c2A | "B"B3 B2a |
+| "B/D#"b2f "E"g2f | "B/D#"b2f "A"g2f | "B"dBd dcB | "A"c3 cde |
+| "B"fgf d2B | "B"Bdf "E"g2f | "B"dBd "A"c2A | "B"B3 B2 f |
+|: "B"d2d dcB | "B"d2f "E"g2f | "B"d2d dcB | "F#m"cz2 f2e |
+| "B"d2d dcB | "B"d2f "E"g2f | "B"dBd "A"c2A |1 "B"B3 B2 f :|2 "B"B3 B2 a|]
+| "B/D#"bff "E"g2f | "B/D#"bff "E"g2f | "B/D#"dBd dcB | "F#7/C#"c3 c2 a |
+| "B/D#"bff "E"g2f | "B/D#"bff "E"g2f | "B"dBd "A"c2A | "B"B3 B2 a |
+| "B/D#"bff "E"g2f | "B/D#"bff "E"g2f | "B"dBd dcB | "A"c3 cde |
+| "B"fgf d2B | "B"Bdf "E"g2f | "B"dBd "A"c2A | "B"B3 z3 |]

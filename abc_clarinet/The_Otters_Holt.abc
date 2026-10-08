@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:2
+T:The Otter's Holt
+R:reel
+M:4/4
+L:1/8
+K:C#min
+f |:"C#m"gccB GFGc |"C#m"BcGc "B"Bcef |"A"gccB GFGB | "B" cedB ~c3f |
+|"A"gccB GFGc |"C#m"BcGc "B"Bcef | "C#m"gbbg "A"fggf |1 "B"eccB ~c3f :|2 "B"ecBG c3d |]
+|:"E"e2ge Begb |"E"c'gbg "A"fggf |"E"e2ge Begb |"A"c'gbg "B"~f3g |
+|"E"~e2ge Begb |"B"c'gbg fgef |"A"gccB GFGB |1"B"cedB ~c3d :|2"B"cedB "C#m"c4 |]

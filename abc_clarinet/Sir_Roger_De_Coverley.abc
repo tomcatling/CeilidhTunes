@@ -1,0 +1,11 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Sir Roger De Coverley
+R:slip jig
+M:9/8
+L:1/8
+K:Amaj
+|: "A"A2 A A2 f ecA | "Bm"B2 B BcA "E7"GFE | "A"A2 A A2 f "E7"efg | "F#m"A2 A "D"ABA "E7"GFE :|
+|: "A"e3 "D"f3 "A"ecA | c"Bm"B2 B BcA "E7"GFE | "A"e3 "D"f3 "E7"efg | "F#m"A2 A "D"ABA "E7"GFE :|
+|: "A"ece "D"fdf "A"ecA | "Bm"B2 B BcA "E7"GFE | "A"ece "D"fdf "E7"efg | "F#m"a2 a "D"aba "E"gfe :|

@@ -1,0 +1,12 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:2
+T:Jig in A
+R:jig
+M:6/8
+L:1/8
+K:Bmin
+|:"Bm"FBB BAB |"A"cee ede |"Bm"fbf "F#m"ecA |"Bm"BcB "G"BAG |
+|"Bm"FBB BAB |"A"cee ede |"Bm"fbf "F#m"ecA |1 "Bm"cBB B2G :|2 "Bm"cBB Bce |]
+|:"B"fbb f3 |"B"fbb c'ba |"B"fbb f3 |"A"cAc ecA |
+|"B"fbb f3 |"B"fbb c'ba |"B"fbf "A"ecA |1 "B"cBB Bce :|2 "B"cBB B3 |]

@@ -1,0 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.6
+X:1
+T:From The New Country
+R:jig
+M:6/8
+L:1/8
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+K:F#dor
+[V:T1] F/2G/2 |:"F#m"AFF cFF |AFF cBA |"E"GEE BEE |ede BAG |
+[V:T2] z |: [c2F2] ([cA][c2F2]) ([cA] | [c2F2]) (FA2B) |[B2E2]([BG][B2E2]) ([BG] | [B2E2]) (G E2 ^E) |
+[V:T1] |"F#m"AFF cFF |AFF (c2d) |"C#m"ede "C#m7"BAG |1"F#m"AFF F2 F/2G/2 :|2"F#m"AFF F2 c |]
+[V:T2] |f2 ([cA][c2F2]) ([cA] | [c2F2]) (F A,2 B,) |C2 (GE2) (G | [F3A,3]) [f2c2F2] z :| [F3A,3]) [f2c2F2] z |]
+[V:T1] |:"F#m"cd^e (f2g) |(f2g) "C#m7"f=ec |"F#m"cd^e (f2g) |"A"fec "E"=e3 |
+[V:T2] |:(FAG) [c2F2] (A, & c3 |B,2) (B,^B,2C) |(FAG) [c2F2] (E &c3 |CA,B,) [B3E3] |
+[V:T1] |"F#m"cd^e (f2g) |(f2g) fec |"C#m7"ede BAG |1"F#m"AFF F2 c :|2 "F#m"AFF F2 |]
+[V:T2] |(FAG) [c2F2] (A, &c3 |B,2) (B,^B,2C) |C2 (GE2) (G | [F3A,3])[f2c2F2] z :| [F3A,3])[f2c2F2] |]

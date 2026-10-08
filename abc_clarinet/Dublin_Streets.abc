@@ -1,0 +1,11 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Dublin Streets
+R:slip jig
+M:9/8
+L:1/8
+K:F#min
+|:"F#m"A2B cAF cAF | "E"G2A BGE BGE | "F#m"A2B cAF cAF | "A"edc "C#m"BAG "F#m"F3 :|
+|"F#m"f2g a2b c'af |"E"e2f g2a bge | "F#m"f2g a2b c'af | "A"edc "C#m"BAG "D"F3 |
+|"F#m"f2g a2b c'af | "C#m"efe e2g "E"bge | "A"ac'a "E"gbg "F#m"faf | "A"edc "C#m"BAG "F#m"F3 |]

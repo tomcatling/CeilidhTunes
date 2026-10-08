@@ -1,0 +1,14 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Zycanthos
+R:jig
+M:6/8
+L:1/8
+K:Bmin
+|:"Bm" b2 b aba | "Bm"f2 bbaa | "Bm"fdd cdc | "G"BGG G2 G |
+|"Bm"FBc dcB | "G"GBc dcB | "A"c2 c fec | "F#m"cde "Bm"dcB :|
+|: "BmE" FBc dcB | "G"GBc dcB | "A"c2 c fec | "F#m"cde dcB |
+|"Bm"FBc dcB | "G"GBc dcB | "A"c2 c fec |1 "Bm"c2 B2 "G"G2 :|2"Bm"c2B2 cd |]
+|: "Em"e2 e-e2 d |"Em" e d2 c2 B | "Em"e2-e2 d e |"F#m" c3 B3 |
+|"Em"e2 e-e2 d | "Em"e d2 c2 B | "Em"e e-e2 d e | "F#m"f3 fdB :|

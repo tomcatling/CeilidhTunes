@@ -1,0 +1,19 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+%%scale 0.6
+X:2
+T:The Blackthorn Stick
+R:jig
+M:6/8
+L:1/8
+V:T1 name="I" snm="I" 
+V:T2 name="II" snm="II" 
+K:Bmaj
+[V:T1]f |: "B"bab "E"gbg | "B"fdB "E"cBG | "B"FBB "F#7"Acc | "B"(Bd)d "F#"c2 f |
+[V:T2]z |: [f2d2] ([fd][f2e2]) ([ef] | [f2d2]) ([fd][f2e2]) ([ef] | [f3d3]) [c3F3] | [d3F3] [c2F2] z |
+[V:T1] |"G#m"bab "E"c'bg | "B"fdB "E"cBG | "B"FBB "F#"Acc | "B"(dB)"E"B "B"B2 f :|
+[V:T2] | [f2d2] ([fd][f2e2]) ([ef] | [f2d2]) ([fd][f2e2]) ([ef] | [f3d3]) [c3F3] | ([d2F2]e) [d3F3] :|
+[V:T1] |: "E"gff "B"bff | "E"gff "B"bff | "E"gff "G#m"bag | "B"fed "F#"c2 f |
+[V:T2] |: [ge] z2 [fd] z2 | [ge] z2 [fd] z2 | [ge] z2 [B3G3] | [B3F3] [A2C2] z |
+[V:T1] |"G#m"bab "E"c'bg | "B"fdB "E"cBG | "B"FBB "F#"Acc | "B"dB"E"B "B"B2 f :|
+[V:T2] |[f2d2] ([fd][f2e2]) ([ef] | [f2d2]) ([fd][f2e2]) ([ef] | [f3d3]) [c3F3] | ([d2F2]e) [d3F3] :|

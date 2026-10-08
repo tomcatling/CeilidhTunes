@@ -1,0 +1,13 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Peter O'Tavy
+R:jig
+M:6/8
+L:1/8
+Q:1/2=40
+K:Amaj
+E | AAA A2A | B2E B2E | BGE BGE | EFG A2E |
+|AAA A2A | B2E B2B | BGE EFG | A3 Ace |
+|a2e a2e | agf e2e | f2f edc | edc B2g |
+|aaa a2a | agf e2e | edc BAG | A3 A2 |]

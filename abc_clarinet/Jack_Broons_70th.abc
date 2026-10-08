@@ -1,0 +1,14 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:Jock Brown's 70th
+R:hornpipe
+M:4/4
+L:1/8
+K:Bmix
+de |:"B"f3f fgfe |dBB/2B/2B FBdf|"A"a4 agab |"E"g4 gfga |
+|"B"bffe f3e |dBB/2B/2B fBdB|"A"ABB/2B/2B e3B |"C#m"ABef e2de :|
+|:"B"b2de fdef |debd efde |"A/B"b2de fdef |debd eaa/2a/2a |
+|"E/B"b2de fdef |debd efdB |"D"ABB/2B/2A e3B |1 "C#m7"ABef e2de:|2 "C#m7"ABef e2ed |]
+|:"B"B2 A(B B)A B2|AB2 AB2 ed |"A"B2 A(B B)A B2 |"E"ABef e2ed |
+|"B"B2 A(B B)A B2 |AB2 AB2 eB |"A"ABef e2 eB |"C#m"edef e2ed :|

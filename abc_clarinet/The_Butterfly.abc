@@ -1,0 +1,11 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:1
+T:The Butterfly
+R:slip jig
+M:9/8
+L:1/8
+K:F#min
+|:"F#m"c2F A2F "E"G3 |"F#m"c2F A2F "C#m"GFE |"F#m"c2F A2F "E"G3 |"F#m"c2e "A"e2c "C#m"BGE :|
+|:"F#m"c2e f2g "D"a3 |"A"c2e a2f "E"ecB |"F#m"c2e f2g "D"a2b |"A"c'2b "Bm"a2f "C#m"ecB :|
+|:"A"c3 c2B "D"A2B |"A"c3 cBc "E"ecB |"A"c3 c2B "E"A2B |"F#m"c2e "Bm"a2f "C#m"ecB :|

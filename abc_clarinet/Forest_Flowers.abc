@@ -1,0 +1,20 @@
+%%titlefont Times-Bold-Italic 16
+%%titleleft true
+X:11
+T:Forest Flowers
+R:waltz
+M:3/4
+L:1/8
+K:Bmin
+FG |:"Bm"F2B2c2 |"G"d2c2B2 |"D"f2"C#"f^e "F#"fg |f4FG |
+|F2B2c2 |d2c2B2 |"Em"g2 gf ga |g4gf |
+|e2f2g2 |g2f2e2 |"Bm"d2e2f2 |f2e2d2 |
+|"F#7"F2^E2F2 |d4c2 |"Bm"B2B^A "F#7"Bc |1"Bm"B4 FG :|2 "Bm"B4 b^a |]
+|:"Bm"b2 f3^e |f2d3c |d2(B4 |B2)e2f2 |
+|"Em"g2g3f |g2a2g2 |"Bm"g2f3^e |f2g2f2 |
+|"F#7"f2e3e |e2f2e2 |"Bm"e2d2c'2 |d6 |
+|"F#7"F2^E2F2 |d4c2 |"Bm"B2B^A "F#7"Bc |1"Bm"B4 b^a :|2"Bm"B2 b2^a2|]
+|:"A"(a6 |a2)b2g2 |"D"(f6 |f2)g2f2 |
+|"F#7"(e6 |e2)f2e2 |"Bm"(d6 |d2)e2d2 |
+|"F#7"(c6 |c2)d2c2 |"Bm"(B6 |B6) |
+|"F#7"F2^E2F2 |d4c2 |"Bm"B2B^A "F#7"Bc |1"Bm"B2 b2^a2 :|2 "Bm"B6 |]
